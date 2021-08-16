@@ -9,4 +9,53 @@
   --title-text-color: #212121;
   --accent-color: #2196f3;
   --primary-white-color: #ffffff;
+  --footer-background-color: #2F303A;
+}
+
+body {
+  color: var(--title-text-color);
+  background-color: var(--primary-white-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.logo {
+  color: var(--title-text-color);
+}
+
+.logo:hover {
+  color: var(--primary-white-color);
+}
+
+/* Site-nav */
+.site-nav .link {
+  color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--title-text-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+.site-contacts .email {
+  color: var(--accent-color);
+}
+.section .button.current {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+.portolio-list .primary.text.color {
+  color: var(--primary-text-color);
+}
+
+.footer
+{
+  background-color: var(--footer-background-color);
 }

@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>WEB-STUDIO</title>
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!-- Header -->
@@ -12,17 +13,16 @@
       <nav>
         <a href="./index.html" class="logo">
           <img src="./images/logo.svg" alt="Логотип компанії" />
-          Web Studio
         </a>
 
         <ul class="site-nav list">
           <li><a href="" class="link">Студія</a></li>
-          <li><a href="" class="curret link">Портфоліо</a></li>
+          <li><a href="" class="link current">Портфоліо</a></li>
           <li><a href="" class="link">Контаки</a></li>
         </ul>
-        <ul>
+        <ul class="site-contacts">
           <li>
-            <p>info@devstudio.com</p>
+            <p class="email">info@devstudio.com</p>
           </li>
           <li>
             <p>+38 096 111 11 11</p>
@@ -37,7 +37,7 @@
 
       <section class="section">
         <ul>
-          <li><button type="button">Все</button></li>
+          <li><button class="button current" type="button">Все</button></li>
           <li><button type="button">Вебсайт</button></li>
           <li><button type="button">Додатки</button></li>
           <li><button type="button">Додатки</button></li>
@@ -55,7 +55,7 @@
               використовують цю платформу для цифрового шпигунства і атак на
               захищені сервера конкурентів.
             </p>
-            <p>Вебсайт</p>
+            <p class="primary text color">Вебсайт</p>
           </li>
           <li>
             <a href=""
@@ -64,7 +64,7 @@
                 alt="Постер"
             /></a>
             <h2>Постер New Orlean vs Golden Star</h2>
-            <p>Дизайн</p>
+            <p class="primary text color">Дизайн</p>
             <p>
               Технокряк це сучасний майданчик поширення коронавируса. Компанії
               використовують цю платформу для цифрового шпигунства і атак на
@@ -76,7 +76,7 @@
               ><img src="./images/Restaurant_Seafood.jpg" alt="Ресторан"
             /></a>
             <h2>Ресторан Seafood</h2>
-            <p>Додаток</p>
+            <p class="primary text color">Додаток</p>
             <p>
               Технокряк це сучасний майданчик поширення коронавируса. Компанії
               використовують цю платформу для цифрового шпигунства і атак на
@@ -88,7 +88,7 @@
               ><img src="./images/Project_Prime.jpg" alt="Проект Прайм"
             /></a>
             <h2>Проєкт Prime</h2>
-            <p>Маркетинг</p>
+            <p class="primary text color">Маркетинг</p>
             <p>
               Технокряк це сучасний майданчик поширення коронавируса. Компанії
               використовують цю платформу для цифрового шпигунства і атак на
@@ -100,7 +100,7 @@
               ><img src="./images/Project_Boxes.jpg" alt="Проект Boxess"
             /></a>
             <h2>Проєкт Boxes</h2>
-            <p>Додаток</p>
+            <p class="primary text color">Додаток</p>
             <p>
               Технокряк це сучасний майданчик поширення коронавируса. Компанії
               використовують цю платформу для цифрового шпигунства і атак на
@@ -114,7 +114,7 @@
                 alt="Надхнення не має кордонів"
             /></a>
             <h2>Inspiration has no Borders</h2>
-            <p>Вебсайт</p>
+            <p class="primary text color">Вебсайт</p>
             <p>
               Технокряк це сучасний майданчик поширення коронавируса. Компанії
               використовують цю платформу для цифрового шпигунства і атак на
@@ -128,7 +128,7 @@
                 alt="Видання Limited Edition"
             /></a>
             <h2>Видання Limited Edition</h2>
-            <p>Дизайн</p>
+            <p class="primary text color">Дизайн</p>
             <p>
               Технокряк це сучасний майданчик поширення коронавируса. Компанії
               використовують цю платформу для цифрового шпигунства і атак на
@@ -140,7 +140,7 @@
               ><img src="./images/Project_LAB.jpg" alt="Проєкт LAB"
             /></a>
             <h2>Проєкт LAB</h2>
-            <p>Маркетинг</p>
+            <p class="primary text color">Маркетинг</p>
             <p>
               Технокряк це сучасний майданчик поширення коронавируса. Компанії
               використовують цю платформу для цифрового шпигунства і атак на
@@ -153,7 +153,7 @@
               ><img src="./images/Growing_Business.jpg" alt="Зростання бізнесу"
             /></a>
             <h2>Growing Business</h2>
-            <p>Додаток</p>
+            <p class="primary text color">Додаток</p>
             <p>
               Технокряк це сучасний майданчик поширення коронавируса. Компанії
               використовують цю платформу для цифрового шпигунства і атак на
@@ -165,10 +165,12 @@
     </main>
 
     <!-- Footer -->
-    <footer>
+    <footer class="footer">
       <ul>
         <li>
-          <a href=""><img src="./images/logo.svg" alt="Логотип" /></a>
+          <a href="./index.html" class="logo">
+          <img src="./images/logo.svg" alt="Логотип компанії" />
+        </a>
         </li>
         <li>
           <p>м. Київ, пр-т Лесі Українки, 26</p>
