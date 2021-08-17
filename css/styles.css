@@ -9,7 +9,10 @@
   --title-text-color: #212121;
   --accent-color: #2196f3;
   --primary-white-color: #ffffff;
-  --footer-background-color: #2F303A;
+
+  /* Footer */
+  --footer-primary-text-color: #ffffff99;
+  --footer-background-color: #2f303a;
 }
 
 body {
@@ -55,7 +58,11 @@ body {
   color: var(--primary-text-color);
 }
 
-.footer
-{
+.footer {
+  color: var(--primary-white-color);
   background-color: var(--footer-background-color);
+}
+
+.footer .primary.text.color {
+  color: var (--footer-primary-text-color);
 }
