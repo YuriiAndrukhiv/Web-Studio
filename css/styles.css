@@ -63,6 +63,28 @@ body {
   background-color: var(--footer-background-color);
 }
 
-.footer .primary.text.color {
-  color: var (--footer-primary-text-color);
+.footer .footer-contacts {
+  color: var(--footer-primary-text-color);
+}
+
+.footer .social-networks {
+  color: var(--primary-white-color);
+}
+
+.footer .link {
+  color: var(--primary-white-color);
+}
+
+footer .link:hover,
+footer .link:focus {
+  color: var(--accent-color);
+}
+
+.footer .footer-subscribe {
+  color: var(--primary-text-color);
+}
+
+.footer .button {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
 }
