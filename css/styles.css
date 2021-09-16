@@ -18,6 +18,9 @@
 body {
   color: var(--title-text-color);
   background-color: var(--primary-white-color);
+
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
 }
 
 .list {
@@ -26,6 +29,12 @@ body {
 
 .logo {
   color: var(--title-text-color);
+  text-decoration: none;
+
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
 }
 
 .logo:hover {
@@ -35,6 +44,11 @@ body {
 /* Site-nav */
 .site-nav .link {
   color: var(--title-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .site-nav .link:hover,
@@ -49,22 +63,62 @@ body {
 .site-contacts .email {
   color: var(--accent-color);
 }
+
+.section {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+}
 .section .button.current {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 }
 
-.portolio-list .primary.text.color {
+.portfolio-list .portfolio-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-list .primary.text.color {
   color: var(--primary-text-color);
+
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.portfolio-list .portfolio-description {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.footer .logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
 }
 
 .footer {
   color: var(--primary-white-color);
   background-color: var(--footer-background-color);
+
+  font-size: 14px;
+  line-height: 1.7;
 }
 
 .footer .footer-contacts {
   color: var(--footer-primary-text-color);
+
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.footer .footer-join-in {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
 }
 
 .footer .social-networks {
@@ -81,10 +135,23 @@ footer .link:focus {
 }
 
 .footer .footer-subscribe {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.footer .footer-email {
   color: var(--primary-text-color);
+
+  font-size: 16px;
+  line-height: 1.25;
 }
 
 .footer .button {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
+
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.8;
 }
