@@ -5,13 +5,13 @@
 /* вторинний колір фону */
 
 :root {
-  --primary-text-color: #757575;
+  --secondary-text-color: #757575;
   --title-text-color: #212121;
   --accent-color: #2196f3;
   --primary-white-color: #ffffff;
 
   /* Footer */
-  --footer-primary-text-color: #ffffff99;
+  --footer-portfolio-item-title: #ffffff99;
   --footer-background-color: #2f303a;
 }
 
@@ -60,16 +60,26 @@ body {
   color: var(--accent-color);
 }
 
-.site-contacts .email {
+.site-contacts .contact-link {
+  color: var(--secondary-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+
+.site-contacts .contact-link:hover,
+.site-contacts .contact-link:focus {
   color: var(--accent-color);
 }
 
-.section {
+section {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
 }
-.section .button.current {
+section .button.current {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 }
@@ -81,14 +91,14 @@ body {
   letter-spacing: 0.06em;
 }
 
-.portfolio-list .primary.text.color {
-  color: var(--primary-text-color);
+.portfolio-list .portfolio-item-title {
+  color: var(--secondary-text-color);
 
   font-size: 16px;
   line-height: 1.8;
 }
 
-.portfolio-list .portfolio-description {
+.portfolio-description {
   font-size: 18px;
   line-height: 1.5;
 }
@@ -108,20 +118,20 @@ body {
   line-height: 1.7;
 }
 
-.footer .footer-contacts {
-  color: var(--footer-primary-text-color);
+.footer-contacts {
+  color: var(--footer-portfolio-item-title);
 
   font-size: 14px;
   line-height: 1.7;
 }
 
-.footer .footer-join-in {
+.footer-join-in {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
 }
 
-.footer .social-networks {
+.social-networks {
   color: var(--primary-white-color);
 }
 
@@ -141,7 +151,7 @@ footer .link:focus {
 }
 
 .footer .footer-email {
-  color: var(--primary-text-color);
+  color: var(--secondary-text-color);
 
   font-size: 16px;
   line-height: 1.25;
