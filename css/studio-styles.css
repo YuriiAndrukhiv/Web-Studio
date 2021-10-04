@@ -1,0 +1,98 @@
+/* Колір основного тексту: #212121 */
+/* Вторинний колір тексту: #757575 */
+/* білий: #FFFFFF */
+/* Акцент #2196F3 */
+/* Вторинний колір фону */
+
+:root {
+  --title-text-color: #212121;
+  --secondary-text-color: #757575;
+  --primary-white-color: #ffffff;
+  --accent-color: #2196f3;
+
+  --studio-background-color: #2f303a;
+
+  --what-we-do-background-images-color: #f5f4fa;
+
+  --our-team-and-regular-customers-background-images-color: #afb1b8;
+
+  --footer-background-color: #2f303a;
+}
+
+body {
+  color: var(--title-text-color);
+  color: var(--primary-white-color);
+}
+
+.list {
+  list-style: none;
+}
+
+/* Логотип: */
+
+/* Site-nav */
+.site-nav .link {
+  color: var(--title-text-color);
+}
+
+.site-nav .link :hover,
+.site-nav .link :focus {
+  color: var(--title-text-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+.site-contacts .contact-link {
+  color: var(--secondary-text-color);
+}
+
+.site-contacts .contact-link:hover,
+.site-contacts .contact-link:focus {
+  color: var(--accent-color);
+}
+
+.studio .button {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+.features .features-title {
+  color: var(--title-text-color);
+}
+
+.features .features-description {
+  color: var(--secondary-text-color);
+}
+
+.our-work .title {
+  color: var(--title-text-color);
+}
+
+.our-work .item-title {
+  color: var(--primary-white-color);
+}
+
+.team .title {
+  color: var(--title-text-color);
+}
+
+.team .item-tittle {
+  color: var(--title-text-color);
+}
+
+.team .vocation {
+  color: var(--secondary-text-color);
+}
+
+.team .link-current {
+  color: var(--accent-color);
+}
+
+/* Логотип футера: */
+
+.footer {
+  color: var(--primary-white-color);
+  background-color: var(--footer-background-color);
+}

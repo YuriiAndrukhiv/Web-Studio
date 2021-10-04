@@ -5,18 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Studio</title>
+    <link rel="stylesheet" href="./css/studio-styles.css" />
   </head>
-
   <body>
     <!-- Header -->
     <header>
       <nav>
-        <a href="./studio.html" class="logo"
-          ><img
-            src="./studio-images/logo/logo1.svg"
-            alt="Логотип компанії для хедера"
-        /></a>
-
+        <a href="" class="logo-link text-logo"
+          ><span class="logo">Web</span> Studio</a
+        >
         <ul class="site-nav list">
           <li><a href="" class="link current">Студія</a></li>
           <li><a href="" class="link">Портфоліо</a></li>
@@ -37,18 +34,18 @@
     <!-- Main -->
     <main>
       <!-- Studio -->
-      <section>
+      <section class="studio">
         <h1>ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</h1>
-        <a href="">Замовити послугу</a>
+        <button class="button" type="button">Замовити послугу</button>
         <img src="./studio-images/Team.jpg" alt="Фонове зображення" />
       </section>
 
       <!-- Features -->
-      <section class="features-description">
+      <section class="features">
         <ul>
           <li>
             <img src="./studio-images/Group.jpg" alt="Супутникова антена" />
-            <h3>УВАЖНІСТЬ ДО ДЕТАЛЕЙ</h3>
+            <h3 class="features-title">УВАЖНІСТЬ ДО ДЕТАЛЕЙ</h3>
             <p class="features-description">
               Ідейні міркування, а також початок повсякденної роботи по
               формуванню позиції.
@@ -56,7 +53,7 @@
           </li>
           <li>
             <img src="./studio-images/clock.jpg" alt="Годинник" />
-            <h3>ПУНКТУАЛЬНІСТЬ</h3>
+            <h3 class="features-title">ПУНКТУАЛЬНІСТЬ</h3>
             <p class="features-description">
               Завдання організації, особливо ж рамки і місце навчання кадрів
               тягне за собою.
@@ -64,14 +61,14 @@
           </li>
           <li>
             <img src="./studio-images/diagram.jpg" alt="Діаграма" />
-            <h3>ПЛАНУВАННЯ</h3>
+            <h3 class="features-title">ПЛАНУВАННЯ</h3>
             <p class="features-description">
               Так само консультація з широким активом в значній мірі обумовлює.
             </p>
           </li>
           <li>
             <img src="./studio-images/astronaut.jpg" alt="Астронавт" />
-            <h3>СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+            <h3 class="features-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
             <p class="features-description">
               Значимість цих проблем настільки очевидна, що реалізація планових
               завдань.
@@ -81,8 +78,8 @@
       </section>
 
       <!-- What we do -->
-      <section>
-        <h2>Чим ми займаємось</h2>
+      <section class="our-work">
+        <h2 class="title">Чим ми займаємось</h2>
         <ul>
           <li>
             <a href=""
@@ -90,7 +87,7 @@
                 src="./studio-images/desktop-apps.jpg"
                 alt="Десктовні додатки"
             /></a>
-            <h3>ДЕСКТОПНІ ДОДАТКИ</h3>
+            <h3 class="item-title">ДЕСКТОПНІ ДОДАТКИ</h3>
           </li>
           <li>
             <a href=""
@@ -98,7 +95,7 @@
                 src="./studio-images/mobile-apps.jpg"
                 alt="Мобільні додатки"
             /></a>
-            <h3>МОБІЛЬНІ ДОДАТКИ</h3>
+            <h3 class="item-title">МОБІЛЬНІ ДОДАТКИ</h3>
           </li>
           <li>
             <a href=""
@@ -106,14 +103,14 @@
                 src="./studio-images/design-solutions.jpg"
                 alt="Дизайнерські рішення"
             /></a>
-            <h3>ДИЗАЙНЕРСЬКІ РІШЕННЯ</h3>
+            <h3 class="item-title">ДИЗАЙНЕРСЬКІ РІШЕННЯ</h3>
           </li>
         </ul>
       </section>
 
       <!-- Our team -->
       <section class="team">
-        <h2>Наша команда</h2>
+        <h2 class="title">Наша команда</h2>
         <ul>
           <li>
             <a href=""
@@ -121,8 +118,8 @@
                 src="./studio-images/Mykola-Kucherenko.jpg"
                 alt="Микола Кучеренко"
             /></a>
-            <h3>Микола Кучеренко</h3>
-            <p class="team vocation">Product Designer</p>
+            <h3 class="item-tittle">Микола Кучеренко</h3>
+            <p class="vocation">Product Designer</p>
             <a href="" class="link-current" aria-label="Посилання на Instagram"
               >Instagram</a
             >
@@ -140,9 +137,9 @@
             <a href=""
               ><img src="./studio-images/Olga-Ivanova.jpg" alt="Ольга Іванова"
             /></a>
-            <h3>Ольга Іванова</h3>
-            <p class="team-vocation">Frontend Developer</p>
-            <a href="" class="link-current" aria-label="Посилання на Instagram"
+            <h3 class="item-tittle">Ольга Іванова</h3>
+            <p class="vocation">Frontend Developer</p>
+            <a href="" class="link" aria-label="Посилання на Instagram"
               >Instagram</a
             >
             <a href="" class="link" aria-label="Посилання на Twitter"
@@ -161,9 +158,9 @@
                 src="./studio-images/Andriy-Shevchenko.jpg"
                 alt="Андрій Шевченко"
             /></a>
-            <h3>Андрій Шевченко</h3>
-            <p class="team-vocation">Marketing</p>
-            <a href="" class="link-current" aria-label="Посилання на Instagram"
+            <h3 class="item-tittle">Андрій Шевченко</h3>
+            <p class="vocation">Marketing</p>
+            <a href="" class="link" aria-label="Посилання на Instagram"
               >Instagram</a
             >
             <a href="" class="link" aria-label="Посилання на Twitter"
@@ -183,9 +180,9 @@
                 src="./studio-images/Ivan-Mykolayiv.jpg"
                 alt="Іван Миколаїв"
             /></a>
-            <h3>Іван Миколаїв</h3>
-            <p class="team-vocation">UI Designer</p>
-            <a href="" class="link-current" aria-label="Посилання на Instagram"
+            <h3 class="item-tittle">Іван Миколаїв</h3>
+            <p class="vocation">UI Designer</p>
+            <a href="" class="link" aria-label="Посилання на Instagram"
               >Instagram</a
             >
             <a href="" class="link" aria-label="Посилання на Twitter"
