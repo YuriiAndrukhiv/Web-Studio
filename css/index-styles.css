@@ -9,14 +9,14 @@
   --secondary-text-color: #757575;
   --primary-white-color: #ffffff;
   --accent-color: #2196f3;
-
+  --two-word-logo-color: #000000;
   --studio-background-color: #2f303a;
-
   --what-we-do-background-images-color: #f5f4fa;
-
   --our-team-and-regular-customers-background-images-color: #afb1b8;
 
+  /* Footer */
   --footer-background-color: #2f303a;
+  --footer-contacts: hsl(0, 0%, 60%);
 }
 
 body {
@@ -32,10 +32,40 @@ body {
 }
 
 /* Логотип: */
+.logo {
+  color: var(--accent-color);
+  font-family: Raleway;
+  font-style: Bold;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.text-logo {
+  color: #000000;
+  text-decoration: none;
+  font-family: Raleway;
+  font-style: Bold;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.logo:hover {
+  color: var(--accent-color);
+}
+
+.text-logo:hover {
+  color: var(--accent-color);
+}
 
 /* Site-nav */
 .site-nav .link {
   color: var(--title-text-color);
+
+  text-decoration: none;
+  font-style: Medium;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .site-nav .link:hover,
@@ -47,8 +77,15 @@ body {
   color: var(--accent-color);
 }
 
+
 .site-contacts .contact-link {
   color: var(--secondary-text-color);
+
+  text-decoration: none;
+  font-style: Medium;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .site-contacts .contact-link:hover,
@@ -56,9 +93,16 @@ body {
   color: var(--accent-color);
 }
 
-.studio .button {
+.hero .hero-button {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
+}
+
+.hero .hero-title {
+  font-style: Black;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
 }
 
 .features .features-title {
@@ -101,7 +145,7 @@ body {
 }
 
 .footer-contacts {
-  color: hsl(0, 0%, 60%);
+  color: var(--footer-contacts);
 }
 
 .footer .footer-join-in {
@@ -118,7 +162,7 @@ body {
 }
 
 .footer .email {
-  color: hsl(0, 0%, 60%);
+  color: var(-);
 }
 
 .footer .button {

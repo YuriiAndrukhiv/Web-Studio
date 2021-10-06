@@ -8,6 +8,7 @@
   --secondary-text-color: #757575;
   --title-text-color: #212121;
   --accent-color: #2196f3;
+  --two-word-logo-color: #000000;
   --primary-white-color: #ffffff;
 
   /* Footer */
@@ -28,11 +29,18 @@ body {
 }
 
 .logo {
-  color: var(--title-text-color);
-  text-decoration: none;
-
+  color: var(--accent-color);
   font-family: Raleway;
-  font-weight: 700;
+  font-style: Bold;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.text-logo {
+  color: var(--two-word-logo-color);
+  text-decoration: none;
+  font-family: Raleway;
+  font-style: Bold;
   font-size: 26px;
   line-height: 1.19;
 }
@@ -45,6 +53,7 @@ body {
 .site-nav .link {
   color: var(--title-text-color);
 
+  text-decoration: none;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -63,6 +72,7 @@ body {
 .site-contacts .contact-link {
   color: var(--secondary-text-color);
 
+  text-decoration: none;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -116,6 +126,23 @@ section .button.current {
 
   font-size: 14px;
   line-height: 1.7;
+}
+
+.footer .logo {
+  color: var(--accent-color);
+  font-family: Raleway;
+  font-style: Bold;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.footer .text-logo {
+  color: var(--primary-white-color);
+  text-decoration: none;
+  font-family: Raleway;
+  font-style: Bold;
+  font-size: 26px;
+  line-height: 1.19;
 }
 
 .footer-contacts {
