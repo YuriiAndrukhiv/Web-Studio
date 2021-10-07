@@ -1,3 +1,9 @@
+a {
+  text-decoration: none;
+}
+
+/* Studio */
+
 /* Колір основного тексту: #212121 */
 /* Вторинний колір тексту: #757575 */
 /* білий: #FFFFFF */
@@ -16,13 +22,12 @@
 
   /* Footer */
   --footer-background-color: #2f303a;
-  --footer-contacts: hsl(0, 0%, 60%);
+  --footer-contacts: #ffffff99;
 }
 
 body {
   color: var(--title-text-color);
   color: var(--primary-white-color);
-
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
 }
@@ -31,38 +36,36 @@ body {
   list-style: none;
 }
 
-/* Логотип: */
-.logo {
+.header .logo {
   color: var(--accent-color);
   font-family: Raleway;
-  font-style: Bold;
+  font-style: 700;
   font-size: 26px;
   line-height: 1.19;
 }
 
-.text-logo {
-  color: #000000;
-  text-decoration: none;
+.header .text-logo {
+  color: var(--two-word-logo-color);
   font-family: Raleway;
-  font-style: Bold;
+  font-style: 700;
   font-size: 26px;
   line-height: 1.19;
 }
 
-.logo:hover {
+.logo:hover,
+.logo:focus {
   color: var(--accent-color);
 }
 
-.text-logo:hover {
+.text-logo:hover,
+.logo:focus {
   color: var(--accent-color);
 }
 
-/* Site-nav */
 .site-nav .link {
   color: var(--title-text-color);
 
-  text-decoration: none;
-  font-style: Medium;
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -70,19 +73,12 @@ body {
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: var(--title-text-color);
-}
-
-.site-nav .link.current {
   color: var(--accent-color);
 }
 
-
 .site-contacts .contact-link {
   color: var(--secondary-text-color);
-
-  text-decoration: none;
-  font-style: Medium;
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -103,53 +99,114 @@ body {
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
+  text-align: center;
 }
 
 .features .features-title {
   color: var(--title-text-color);
+  font-style: 700;
+  font-size: 14px;
+  line-height: 1.14;
 }
 
 .features .features-description {
   color: var(--secondary-text-color);
+  font-size: 14px;
+  line-height: 1.7;
 }
 
 .our-work .title {
   color: var(--title-text-color);
+  font-style: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
 }
 
 .our-work .item-title {
   color: var(--primary-white-color);
+  font-style: 700;
+  font-size: 14px;
+  line-height: 1.14;
 }
 
 .team .title {
   color: var(--title-text-color);
+  font-style: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
 }
 
 .team .item-tittle {
   color: var(--title-text-color);
+  font-style: 500;
+  font-size: 16px;
+  line-height: 1.18;
 }
 
 .team .vocation {
   color: var(--secondary-text-color);
+  font-style: 400;
+  font-size: 16px;
+  line-height: 1.18;
 }
 
-.team .link-current {
+.team .link {
+  color: var(--secondary-text-color);
+}
+
+.team .link:hover,
+.team .link:focus {
   color: var(--accent-color);
 }
 
-/* Логотип футера: */
+.regular-customers .title {
+  color: var(--title-text-color);
+  font-style: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
 
 .footer {
   color: var(--primary-white-color);
   background-color: var(--footer-background-color);
 }
 
-.footer-contacts {
-  color: var(--footer-contacts);
+.footer .logo {
+  color: var(--accent-color);
+  font-family: Raleway;
+  font-style: 700;
+  font-size: 26px;
+  line-height: 1.19;
 }
 
-.footer .footer-join-in {
+.text-logo {
   color: var(--primary-white-color);
+  font-family: Raleway;
+  font-style: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.footer .address {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.footer .contacts {
+  color: var(--footer-contacts);
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.footer .join-in {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
 }
 
 .footer .link {
@@ -161,11 +218,22 @@ body {
   color: var(--accent-color);
 }
 
+.footer .subscribe {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
 .footer .email {
-  color: var(-);
+  color: var(--footer-contacts);
+  font-size: 16px;
+  line-height: 1.25;
 }
 
 .footer .button {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.8;
 }
