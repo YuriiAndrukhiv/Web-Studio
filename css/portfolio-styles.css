@@ -33,7 +33,7 @@ body {
   list-style: none;
 }
 
-.logo {
+.header .first-word-logo {
   color: var(--accent-color);
   font-family: Raleway;
   font-style: 700;
@@ -41,7 +41,7 @@ body {
   line-height: 1.19;
 }
 
-.text-logo {
+.header .two-word-logo {
   color: var(--two-word-logo-color);
   font-family: Raleway;
   font-style: 700;
@@ -49,8 +49,14 @@ body {
   line-height: 1.19;
 }
 
-.logo:hover {
-  color: var(--primary-white-color);
+.first-word-logo:hover,
+.first-word-logo:focus {
+  color: var(--accent-color);
+}
+
+.two-word-logo:hover,
+.ftwo-word-logo:focus {
+  color: var(--accent-color);
 }
 
 /* Site-nav */
@@ -121,7 +127,7 @@ section .button.current {
   background-color: var(--footer-background-color);
 }
 
-.footer .logo {
+.footer .first-word-logo {
   color: var(--accent-color);
   font-family: Raleway;
   font-style: 700;
@@ -129,12 +135,22 @@ section .button.current {
   line-height: 1.19;
 }
 
-.footer .text-logo {
+.footer .two-word-logo {
   color: var(--primary-white-color);
   font-family: Raleway;
   font-style: 700;
   font-size: 26px;
   line-height: 1.19;
+}
+
+.first-word-logo:hover,
+.first-word-logo:focus {
+  color: var(--accent-color);
+}
+
+.two-word-logo:hover,
+.ftwo-word-logo:focus {
+  color: var(--accent-color);
 }
 
 .footer .address {

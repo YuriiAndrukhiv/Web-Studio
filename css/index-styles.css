@@ -32,11 +32,21 @@ body {
   letter-spacing: 0.03em;
 }
 
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+
+  outline: 2px solid tomato;
+}
+
 .list {
+  padding: 0px;
+  margin: 0px;
   list-style: none;
 }
 
-.header .logo {
+.header .first-word-logo {
   color: var(--accent-color);
   font-family: Raleway;
   font-style: 700;
@@ -44,7 +54,7 @@ body {
   line-height: 1.19;
 }
 
-.header .text-logo {
+.header .two-word-logo {
   color: var(--two-word-logo-color);
   font-family: Raleway;
   font-style: 700;
@@ -52,14 +62,20 @@ body {
   line-height: 1.19;
 }
 
-.logo:hover,
-.logo:focus {
+.first-word-logo:hover,
+.first-word-logo:focus {
   color: var(--accent-color);
 }
 
-.text-logo:hover,
-.logo:focus {
+.two-word-logo:hover,
+.ftwo-word-logo:focus {
   color: var(--accent-color);
+}
+
+/* Site-nav */
+
+.site-nav {
+  display: flex;
 }
 
 .site-nav .link {
@@ -76,6 +92,10 @@ body {
   color: var(--accent-color);
 }
 
+.site-contacts {
+  display: flex;
+}
+
 .site-contacts .contact-link {
   color: var(--secondary-text-color);
   font-weight: 500;
@@ -89,17 +109,28 @@ body {
   color: var(--accent-color);
 }
 
+.hero {
+  text-align: center;cd
+}
+
 .hero .hero-button {
+  border-radius: 4px;
+  padding: 10px 32px;
+  min-width: 200px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 }
 
 .hero .hero-title {
+  margin-top: 0;
+  margin-bottom: 40px;
   font-style: Black;
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
-  text-align: center;
+
+  background-color: tomato;
 }
 
 .features .features-title {
@@ -174,7 +205,7 @@ body {
   background-color: var(--footer-background-color);
 }
 
-.footer .logo {
+.footer .first-word-logo {
   color: var(--accent-color);
   font-family: Raleway;
   font-style: 700;
@@ -182,12 +213,22 @@ body {
   line-height: 1.19;
 }
 
-.text-logo {
+.footer .two-word-logo {
   color: var(--primary-white-color);
   font-family: Raleway;
   font-style: 700;
   font-size: 26px;
   line-height: 1.19;
+}
+
+.first-word-logo:hover,
+.first-word-logo:focus {
+  color: var(--accent-color);
+}
+
+.two-word-logo:hover,
+.two-word-logo:focus {
+  color: var(--accent-color);
 }
 
 .footer .address {
