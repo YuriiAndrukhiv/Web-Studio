@@ -17,7 +17,7 @@ a {
   --accent-color: #2196f3;
   --two-word-logo-color: #000000;
   --studio-background-color: #2f303a;
-  --what-we-do-background-images-color: #f5f4fa;
+  --our-team-background-color: #f5f4fa;
   --our-team-and-regular-customers-background-images-color: #afb1b8;
 
   /* Footer */
@@ -169,6 +169,10 @@ body {
   font-style: 700;
   font-size: 14px;
   line-height: 1.14;
+}
+
+.team {
+  background-color: var(--our-team-background-color);
 }
 
 .team .title {
