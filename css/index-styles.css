@@ -12,7 +12,7 @@ a {
 
 :root {
   --title-text-color: #212121;
-  --secondary-text-color: #8a4444;
+  --secondary-text-color: #757575;
   --primary-white-color: #ffffff;
   --accent-color: #2196f3;
   --two-word-logo-color: #000000;
@@ -32,10 +32,18 @@ body {
   letter-spacing: 0.03em;
 }
 
+.list {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+
 .container {
   margin-left: auto;
   margin-right: auto;
   width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
 
   outline: 2px solid tomato;
 }
@@ -44,17 +52,10 @@ body {
   padding-bottom: 94px;
 }
 
-.list {
-  padding: 0px;
-  margin: 0px;
-  list-style: none;
-}
-
-.header {
-}
-
 .main-nav {
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .header .first-word-logo {
@@ -85,12 +86,11 @@ body {
 
 .site-nav {
   display: flex;
+  margin-left: 86px;
 }
 
 .site-nav .item {
   margin-right: 50px;
-
-  background-color: tomato;
 }
 
 .site-nav .item:last-child {
@@ -116,6 +116,7 @@ body {
 
 .site-contacts {
   display: flex;
+  margin-left: auto;
 }
 
 .site-contacts .item + .item {
