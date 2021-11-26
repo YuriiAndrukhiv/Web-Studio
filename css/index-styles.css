@@ -164,9 +164,9 @@ body {
 .features .feautures-content {
   padding: 0;
 }
-
+/* .img-block */
 .feauters .img-block {
-  background-color: #F5F4FA;
+  background-color: #f5f4fa;
 }
 
 .features .features-title {
