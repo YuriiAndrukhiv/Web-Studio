@@ -161,6 +161,14 @@ body {
   background-color: tomato;
 }
 
+.features .feautures-content {
+  padding: 0;
+}
+
+.feauters .img-block {
+  background-color: #F5F4FA;
+}
+
 .features .features-title {
   margin-top: 0;
   margin-bottom: 10px;
