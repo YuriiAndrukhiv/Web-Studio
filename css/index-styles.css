@@ -163,10 +163,26 @@ body {
 
 .features .feautures-content {
   padding: 0;
+  display: inline-block;
+  display: flex;
 }
-/* .img-block */
-.feauters .img-block {
+
+.features .feauters-item {
+  margin: 0;
+  padding: 0;
+}
+
+.img-block {
   background-color: #f5f4fa;
+  width: 270px;
+  height: 120px;
+  padding: 25px 100px;
+  margin-bottom: 30px;
+  display: inline-block;
+}
+
+.img-block:last-child {
+  margin-right: 30px;
 }
 
 .features .features-title {
@@ -204,6 +220,8 @@ body {
   font-style: 700;
   font-size: 14px;
   line-height: 1.14;
+
+  background-color: tomato;
 }
 
 .team {
