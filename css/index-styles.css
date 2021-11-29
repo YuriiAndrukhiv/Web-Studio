@@ -163,7 +163,6 @@ body {
 
 .features .feautures-content {
   padding: 0;
-  display: inline-block;
   display: flex;
 }
 
@@ -172,17 +171,17 @@ body {
   padding: 0;
 }
 
+.feautures-content>li:last-child .img-block{
+  margin-left: 30px;
+}
+
 .img-block {
   background-color: #f5f4fa;
   width: 270px;
   height: 120px;
   padding: 25px 100px;
-  margin-bottom: 30px;
-  display: inline-block;
-}
-
-.img-block:last-child {
   margin-right: 30px;
+  margin-bottom: 30px;
 }
 
 .features .features-title {
@@ -215,7 +214,13 @@ body {
   text-align: center;
 }
 
+.image-title-block{
+
+}
+
 .our-work .item-title {
+margin: 0;
+
   color: var(--primary-white-color);
   font-style: 700;
   font-size: 14px;
