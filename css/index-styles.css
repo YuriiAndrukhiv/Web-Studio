@@ -273,6 +273,18 @@ body {
   padding: 0;
 }
 
+.team .team-content > li {
+  margin-right: 30px;
+}
+
+.team .team-content>li:last-child{
+  margin-right: 0;
+}
+
+.team .team-content li img{
+  margin-bottom: 30px;
+}
+
 .team .item-tittle {
   margin-top: 0;
   margin-bottom: 10;
