@@ -36,7 +36,7 @@ body {
 .header .first-word-logo {
   color: var(--accent-color);
   font-family: Raleway;
-  font-style: 700;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
 }
@@ -44,7 +44,7 @@ body {
 .header .two-word-logo {
   color: var(--two-word-logo-color);
   font-family: Raleway;
-  font-style: 700;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
 }
@@ -130,7 +130,7 @@ section .button.current {
 .footer .first-word-logo {
   color: var(--accent-color);
   font-family: Raleway;
-  font-style: 700;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
 }
@@ -138,7 +138,7 @@ section .button.current {
 .footer .two-word-logo {
   color: var(--primary-white-color);
   font-family: Raleway;
-  font-style: 700;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
 }
@@ -154,7 +154,6 @@ section .button.current {
 }
 
 .footer .address {
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
