@@ -281,9 +281,16 @@ body {
   margin-right: 0;
 }
 
-.team .team-content li img {
-  margin-bottom: 30px;
+.team .background-list {
+  background-color: var(--primary-white-color);
+  width: 270px;
+  height: 162px;
+  padding-top: 30px;
 }
+
+/* .team .team-content li img {
+  margin-bottom: 30px;
+} */
 
 .team .item-tittle {
   margin-top: 0;
@@ -307,8 +314,23 @@ body {
   text-align: center;
 }
 
+.team .social-networks {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
 .team .link {
   color: var(--secondary-text-color);
+}
+
+.team .link{
+  margin-right: 10px;
+}
+
+.team .link:last-child{
+  margin-right: 0;
 }
 
 .team .link:hover,
