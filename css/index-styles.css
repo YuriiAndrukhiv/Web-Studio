@@ -281,18 +281,15 @@ body {
   margin-right: 0;
 }
 
-.team .background-list {
+.team .team-item {
   background-color: var(--primary-white-color);
-  width: 270px;
-  height: 162px;
-  padding-top: 30px;
 }
 
-/* .team .team-content li img {
+.team .team-content li img {
   margin-bottom: 30px;
-} */
+}
 
-.team .item-tittle {
+.team .team-title {
   margin-top: 0;
   margin-bottom: 10px;
 
@@ -325,18 +322,18 @@ body {
   color: var(--secondary-text-color);
 }
 
-.team .link{
+.team .link img {
   margin-right: 10px;
 }
 
-.team .link:last-child{
+.team .link img:last-child {
   margin-right: 0;
 }
 
-.team .link:hover,
+/* .team .link:hover,
 .team .link:focus {
   color: var(--accent-color);
-}
+} */
 
 .regular-customers .title {
   margin-top: 0;
