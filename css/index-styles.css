@@ -325,6 +325,14 @@ body {
   text-align: center;
 }
 
+.regular-customers .content li{
+  margin-right: 30px;
+}
+
+.regular-customers .content li:last-child{
+  margin-right: 0;
+}
+
 .footer {
   color: var(--primary-white-color);
   background-color: var(--footer-background-color);
