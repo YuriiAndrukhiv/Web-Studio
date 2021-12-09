@@ -285,7 +285,7 @@ body {
   background-color: var(--primary-white-color);
 }
 
-.team .team-content li img {
+.team-portret {
   margin-bottom: 30px;
 }
 
@@ -314,26 +314,17 @@ body {
 .team .social-networks {
   display: flex;
   justify-content: center;
-  margin: 0;
+  margin-bottom: 24px;
   padding: 0;
 }
 
-.team .link {
-  color: var(--secondary-text-color);
-}
-
-.team .link img {
+.team .social-networks li {
   margin-right: 10px;
 }
 
-.team .link img:last-child {
+.team .social-networks li:last-child {
   margin-right: 0;
 }
-
-/* .team .link:hover,
-.team .link:focus {
-  color: var(--accent-color);
-} */
 
 .regular-customers .title {
   margin-top: 0;
