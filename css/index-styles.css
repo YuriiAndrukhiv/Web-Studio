@@ -6,6 +6,12 @@ img {
   display: block;
 }
 
+.content {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
 /* Studio */
 
 /* Колір основного тексту: #212121 */
@@ -165,12 +171,6 @@ body {
   background-color: tomato;
 }
 
-.features .feautures-content {
-  margin: 0;
-  padding: 0;
-  display: flex;
-}
-
 .img-block {
   background-color: #f5f4fa;
   width: 270px;
@@ -179,11 +179,11 @@ body {
   margin-bottom: 30px;
 }
 
-.features .feautures-content > li {
+.features .content > li {
   margin-right: 30px;
 }
 
-.features .feautures-content > li:last-child {
+.features .content > li:last-child {
   margin-right: 0;
 }
 
@@ -217,17 +217,11 @@ body {
   text-align: center;
 }
 
-.our-work .work-content {
-  margin: 0;
-  padding: 0;
-  display: flex;
-}
-
-.our-work .work-content > li {
+.our-work .content > li {
   margin-right: 30px;
 }
 
-.our-work .work-content > li:last-child {
+.our-work .content > li:last-child {
   margin-right: 0;
 }
 
@@ -267,17 +261,11 @@ body {
   text-align: center;
 }
 
-.team .team-content {
-  display: flex;
-  margin: 0;
-  padding: 0;
-}
-
-.team .team-content > li {
+.team .content > li {
   margin-right: 30px;
 }
 
-.team .team-content > li:last-child {
+.team .content > li:last-child {
   margin-right: 0;
 }
 
