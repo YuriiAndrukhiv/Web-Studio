@@ -64,13 +64,8 @@ body {
 
 .container-flex {
   display: flex;
-}
-
-/* .main-nav {
-  display: flex;
   align-items: center;
-  justify-content: start;
-} */
+}
 
 .header .first-word-logo {
   color: var(--accent-color);
