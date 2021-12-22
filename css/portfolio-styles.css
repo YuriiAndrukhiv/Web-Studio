@@ -2,6 +2,12 @@ a {
   text-decoration: none;
 }
 
+.content {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
 /* Portfolio */
 
 /* Колір основного тексту: #212121 */
@@ -33,6 +39,25 @@ body {
   list-style: none;
 }
 
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  outline: 2px solid tomato;
+}
+
+.section {
+  padding-bottom: 94px;
+}
+
+.container-flex {
+  display: flex;
+  align-items: center;
+}
+
 .header .first-word-logo {
   color: var(--accent-color);
   font-family: Raleway;
@@ -59,7 +84,19 @@ body {
   color: var(--accent-color);
 }
 
-/* Site-nav */
+.site-nav {
+  display: flex;
+  margin-left: 86px;
+}
+
+.site-nav .item {
+  margin-right: 50px;
+}
+
+.site-nav .item:last-child {
+  margin-right: 0;
+}
+
 .site-nav .link {
   color: var(--title-text-color);
   font-weight: 500;
@@ -71,6 +108,15 @@ body {
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--accent-color);
+}
+
+.site-contacts {
+  display: flex;
+  margin-left: auto;
+}
+
+.site-contacts .item + .item {
+  margin-left: 30px;
 }
 
 .site-contacts .contact-link {
