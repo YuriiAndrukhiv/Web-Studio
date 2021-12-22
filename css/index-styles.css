@@ -12,6 +12,21 @@ img {
   display: flex;
 }
 
+.social-networks {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 24px;
+  padding: 0;
+}
+
+.social-networks li {
+  margin-right: 10px;
+}
+
+.social-networks li:last-child {
+  margin-right: 0;
+}
+
 /* Studio */
 
 /* Колір основного тексту: #212121 */
@@ -298,21 +313,6 @@ body {
   text-align: center;
 }
 
-.team .social-networks {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 24px;
-  padding: 0;
-}
-
-.team .social-networks li {
-  margin-right: 10px;
-}
-
-.team .social-networks li:last-child {
-  margin-right: 0;
-}
-
 .regular-customers .title {
   margin-top: 0;
   margin-bottom: 50px;
@@ -340,9 +340,9 @@ body {
 .container-padding {
   padding-top: 60px;
   padding-bottom: 60px;
-} 
+}
 
-.footer-contacts{
+.footer-contacts {
   margin-right: 69px;
 }
 
@@ -397,19 +397,17 @@ body {
   margin-bottom: 0px;
 }
 
-.join-in-content .social-networks {
-  display:flex
-}
-
-
-
-.footer .join-in {
+.join-in {
   margin-top: 0;
   margin-bottom: 20px;
 
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+}
+
+.join-in-content {
+  margin-right: 94px;
 }
 
 .footer .link {
@@ -421,7 +419,12 @@ body {
   color: var(--accent-color);
 } */
 
-.footer .subscribe {
+.subscribe-content {
+  margin-right: 12px;
+}
+
+.subscribe {
+  margin-top: 0;
   margin-bottom: 20px;
 
   font-weight: 700;
@@ -430,12 +433,17 @@ body {
 }
 
 .footer .email {
+  margin-top: 0;
+  margin-bottom: 0;
+
   color: var(--footer-contacts);
   font-size: 16px;
   line-height: 1.25;
 }
 
 .footer .button {
+  display: block;
+
   border-radius: 4px;
   padding-top: 10px;
   padding-right: 62px;
