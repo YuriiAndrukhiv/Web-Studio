@@ -333,13 +333,11 @@ body {
 }
 
 .footer {
-  color: var(--primary-white-color);
-  background-color: var(--footer-background-color);
-}
-
-.container-padding {
   padding-top: 60px;
   padding-bottom: 60px;
+
+  color: var(--primary-white-color);
+  background-color: var(--footer-background-color);
 }
 
 .footer-contacts {
