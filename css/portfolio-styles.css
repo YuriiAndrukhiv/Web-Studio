@@ -2,6 +2,10 @@ a {
   text-decoration: none;
 }
 
+img {
+  display: block;
+}
+
 .content {
   margin: 0;
   padding: 0;
