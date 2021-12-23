@@ -87,6 +87,7 @@ body {
 .site-nav {
   display: flex;
   margin-left: 86px;
+  padding: 0;
 }
 
 .site-nav .item {
@@ -132,14 +133,25 @@ body {
   color: var(--accent-color);
 }
 
-section {
+.portfolio {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
 }
-section .button.current {
+.portfolio .button.current {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
+}
+
+.portfolio-nav {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.portfolio-nav .item + .item {
+  margin-left: 8px;
 }
 
 .portfolio-list .portfolio-title {
