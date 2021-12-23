@@ -17,8 +17,9 @@ a {
 /* Вторинний колір фону */
 
 :root {
-  --secondary-text-color: #757575;
   --title-text-color: #212121;
+  --secondary-text-color: #757575;
+
   --accent-color: #2196f3;
   --two-word-logo-color: #000000;
   --primary-white-color: #ffffff;
@@ -37,6 +38,8 @@ body {
 
 .list {
   list-style: none;
+  padding: 0px;
+  margin: 0px;
 }
 
 .container {
@@ -87,7 +90,6 @@ body {
 .site-nav {
   display: flex;
   margin-left: 86px;
-  padding: 0;
 }
 
 .site-nav .item {
@@ -99,6 +101,10 @@ body {
 }
 
 .site-nav .link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 14px;
