@@ -27,38 +27,38 @@ img {
   margin-right: 0;
 }
 
-/* Portfolio */
-
 /* Колір основного тексту: #212121 */
-/* Вторинний колір тексту #757575 */
-/* Білий #FFFFFF */
+/* Вторинний колір тексту: #757575 */
+/* білий: #FFFFFF */
 /* Акцент #2196F3 */
-/* Вторинний колір фону */
 
 :root {
+  /*Basic colours  */
   --title-text-color: #212121;
   --secondary-text-color: #757575;
-
+  --primary-white-color: #ffffff;
   --accent-color: #2196f3;
   --two-word-logo-color: #000000;
-  --primary-white-color: #ffffff;
+  --studio-background-color: #2f303a;
+  --our-team-background-color: #f5f4fa;
+  --our-team-and-regular-customers-background-images-color: #afb1b8;
 
-  /* Footer */
-  --footer-contacts: #ffffff99;
+  /* Footer colours */
   --footer-background-color: #2f303a;
+  --footer-contacts: #ffffff99;
 }
 
 body {
   color: var(--title-text-color);
-  background-color: var(--primary-white-color);
+  color: var(--primary-white-color);
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
 }
 
 .list {
-  list-style: none;
   padding: 0px;
   margin: 0px;
+  list-style: none;
 }
 
 .container {
@@ -80,6 +80,7 @@ body {
   align-items: center;
 }
 
+/* Header */
 .header .first-word-logo {
   color: var(--accent-color);
   font-family: Raleway;
@@ -149,7 +150,7 @@ body {
   color: var(--secondary-text-color);
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.4;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 
@@ -158,6 +159,181 @@ body {
   color: var(--accent-color);
 }
 
+
+/* Studio */
+.hero {
+  text-align: center;
+}
+
+.hero .hero-button {
+  border-radius: 4px;
+  padding: 10px 32px;
+  min-width: 200px;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+.hero .hero-title {
+  margin-top: 0;
+  margin-bottom: 40px;
+
+  font-weight: Black;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  background-color: tomato;
+}
+
+.img-block {
+  background-color: #f5f4fa;
+  width: 270px;
+  height: 120px;
+  padding: 25px 100px;
+  margin-bottom: 30px;
+}
+
+.features .content > li {
+  margin-right: 30px;
+}
+
+.features .content > li:last-child {
+  margin-right: 0;
+}
+
+.features .features-title {
+  margin-top: 0;
+  margin-bottom: 10px;
+
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.features .features-description {
+  margin-top: 0;
+  margin-bottom: 0;
+
+  color: var(--secondary-text-color);
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.our-work .title {
+  margin-top: 0;
+  margin-bottom: 50px;
+
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
+.our-work .content > li {
+  margin-right: 30px;
+}
+
+.our-work .content > li:last-child {
+  margin-right: 0;
+}
+
+.our-work .item-title {
+  margin: 0;
+
+  color: var(--primary-white-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.title-block {
+  width: 370px;
+  height: 70px;
+  left: 215px;
+  top: 1435px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: rgba(47, 48, 58, 0.8);
+}
+
+.team {
+  background-color: var(--our-team-background-color);
+}
+
+.team .title {
+  margin-top: 0;
+  margin-bottom: 50px;
+
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
+.team .content > li {
+  margin-right: 30px;
+}
+
+.team .content > li:last-child {
+  margin-right: 0;
+}
+
+.team .team-item {
+  background-color: var(--primary-white-color);
+}
+
+.team-portret {
+  margin-bottom: 30px;
+}
+
+.team .team-title {
+  margin-top: 0;
+  margin-bottom: 10px;
+
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+}
+
+.team .vocation {
+  margin-top: 0;
+  margin-bottom: 16px;
+
+  color: var(--secondary-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+}
+
+.regular-customers .title {
+  margin-top: 0;
+  margin-bottom: 50px;
+
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
+.regular-customers .content li {
+  margin-right: 30px;
+}
+
+.regular-customers .content li:last-child {
+  margin-right: 0;
+}
+
+/* Portfolio-page */
 .portfolio {
   font-weight: 500;
   font-size: 16px;
@@ -198,16 +374,21 @@ body {
   line-height: 1.5;
 }
 
-.footer .logo {
-  font-family: Raleway;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-}
-
+/* Footer */
 .footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
   color: var(--primary-white-color);
   background-color: var(--footer-background-color);
+}
+
+.footer-contacts {
+  margin-right: 69px;
+}
+
+.footer-contacts > .footer-logo {
+  margin-bottom: 20px;
 }
 
 .footer .first-word-logo {
@@ -232,50 +413,86 @@ body {
 }
 
 .two-word-logo:hover,
-.ftwo-word-logo:focus {
+.two-word-logo:focus {
   color: var(--accent-color);
 }
 
 .footer .address {
+  margin-bottom: 9px;
+
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
 }
 
 .footer .contacts {
+  margin-top: 0;
+  margin-bottom: 9px;
+
   color: var(--footer-contacts);
   font-size: 14px;
   line-height: 1.7;
 }
 
-.footer .join-in {
+.footer .contacts:last-child {
+  margin-bottom: 0px;
+}
+
+.join-in {
+  margin-top: 0;
+  margin-bottom: 20px;
+
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+}
+
+.join-in-content {
+  margin-right: 94px;
 }
 
 .footer .link {
   color: var(--primary-white-color);
 }
 
-footer .link:hover,
-footer .link:focus {
+/* .footer .link:hover,
+.footer .link:focus {
   color: var(--accent-color);
+} */
+
+.subscribe-content {
+  margin-right: 12px;
 }
 
-.footer .subscribe {
+.subscribe {
+  margin-top: 0;
+  margin-bottom: 20px;
+
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
 }
 
 .footer .email {
+  margin-top: 0;
+  margin-bottom: 0;
+
   color: var(--footer-contacts);
   font-size: 16px;
   line-height: 1.25;
 }
 
 .footer .button {
+  display: block;
+
+  border-radius: 4px;
+  padding-top: 10px;
+  padding-right: 62px;
+  padding-bottom: 10px;
+  padding-left: 29px;
+  min-width: 200px;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   color: var(--primary-white-color);
   background-color: var(--accent-color);
   font-weight: 700;
