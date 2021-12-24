@@ -50,7 +50,7 @@ img {
 
 body {
   color: var(--title-text-color);
-  color: var(--primary-white-color);
+  background-color: var(--primary-white-color);
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
 }
