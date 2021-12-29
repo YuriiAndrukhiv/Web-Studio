@@ -10,6 +10,7 @@ img {
   margin: 0;
   padding: 0;
   display: flex;
+  list-style: none;
 }
 
 .social-networks {
@@ -17,6 +18,7 @@ img {
   justify-content: center;
   margin-bottom: 24px;
   padding: 0;
+  list-style: none;
 }
 
 .social-networks li {
@@ -158,7 +160,6 @@ body {
 .site-contacts .contact-link:focus {
   color: var(--accent-color);
 }
-
 
 /* Studio */
 .hero {
@@ -334,6 +335,7 @@ body {
 }
 
 /* Portfolio-page */
+
 .portfolio {
   font-weight: 500;
   font-size: 16px;
@@ -355,7 +357,34 @@ body {
   margin-left: 8px;
 }
 
+.portfolio-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.portfolio-list > li{
+margin-right: 30px;
+}
+
+.portfolio-list > li:last-child{
+margin-right: 0;
+}
+
+.portfolio-item{
+background-color: var(--primary-white-color);
+border: 1px solid #EEEEEE;
+}
+
+.portfolio-image {
+  margin-bottom: 20px;
+}
+
 .portfolio-list .portfolio-title {
+  margin-top: 0;
+  margin-bottom: 4px;
+  
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
