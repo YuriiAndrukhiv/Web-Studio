@@ -365,7 +365,7 @@ body {
   flex-wrap: wrap;
 }
 
-.portfolio-list > li {
+.portfolio-list li {
   margin-right: 30px;
   margin-bottom: 30px;
 }
