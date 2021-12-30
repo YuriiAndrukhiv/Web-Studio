@@ -363,6 +363,7 @@ body {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
+  width: 1170px;
 }
 
 .portfolio-list li {
@@ -380,6 +381,7 @@ body {
 }
 
 .portfolio-image {
+  margin-right: 0;
   margin-bottom: 20px;
 }
 
