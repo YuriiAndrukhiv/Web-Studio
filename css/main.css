@@ -167,6 +167,12 @@ body {
 }
 
 .overlay {
+  max-width: 1600px;
+  height: 480px;
+  margin-left: auto;
+  margin-left: auto;
+  outline: 1px solid black;
+  background-image: url("../studio-images/Team.jpg");
 }
 
 .hero .hero-button {
