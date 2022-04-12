@@ -548,9 +548,10 @@ body {
 }
 
 .footer .button {
+  display: inline-flex;
+  align-items: center;
   border-radius: 4px;
   padding-top: 10px;
-  padding-right: 62px;
   padding-bottom: 10px;
   padding-left: 29px;
   width: 200px;
@@ -562,4 +563,15 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.8;
+}
+
+.footer .button::after{
+  content: "";
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+  margin-right: 28px;
+  /* outline: 1px solid black; */
+  background-image: url(../studio-images/icon-send.png);
+  background-size: contain;
 }
