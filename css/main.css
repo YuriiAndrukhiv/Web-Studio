@@ -140,7 +140,8 @@ body {
 }
 
 .site-contacts {
-  display: flex;
+  display: inline-flex;
+  align-items: center;
   margin-left: auto;
 }
 
@@ -159,6 +160,16 @@ body {
 .site-contacts .contact-link:hover,
 .site-contacts .contact-link:focus {
   color: var(--accent-color);
+}
+
+.contact-link::before{
+  content: "";
+  width: 16px;
+  height: 11.2px;
+  margin-right: 10px;
+  background-image: url(../studio-images/envelope-hover.svg);
+  background-size: contain;
+  outline: 1px solid black;
 }
 
 /* Studio */
@@ -571,7 +582,6 @@ body {
   height: 24px;
   margin-left: 10px;
   margin-right: 28px;
-  /* outline: 1px solid black; */
-  background-image: url(../studio-images/icon-send.png);
+  background-image: url(../studio-images/icon-send.svg);
   background-size: contain;
 }
