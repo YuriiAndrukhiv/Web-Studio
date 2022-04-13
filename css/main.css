@@ -150,6 +150,8 @@ body {
 }
 
 .site-contacts .contact-link {
+  display: inline-flex;
+  align-items: center;
   color: var(--secondary-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -163,13 +165,29 @@ body {
 }
 
 .contact-link::before{
+  display: block;
   content: "";
   width: 16px;
   height: 11.2px;
+  
+  background-size: contain;
+  background-repeat: no-repeat;
+  /* outline: 1px solid black; */
+}
+
+.phone:hover,
+.phone:focus {
+  color: var(--accent-color);
+}
+
+.email::before {
   margin-right: 10px;
   background-image: url(../studio-images/envelope-hover.svg);
-  background-size: contain;
-  outline: 1px solid black;
+}
+
+.phone::before{
+  margin-left: 10px;
+  background-image: url(../studio-images/smartphone.svg);
 }
 
 /* Studio */
