@@ -177,11 +177,12 @@ body {
   text-align: center;
 }
 
+.hero > .container{
+  padding: 0;
+}
+
 .overlay {
-  max-width: 1200px;
   height: 600px;
-  margin-left: auto;
-  margin-left: auto;
   outline: 2px solid tomato;
   background-image: linear-gradient(
     to right,
@@ -206,13 +207,15 @@ body {
 
 .hero .hero-title {
   margin-top: 0;
-  margin-bottom: 40px;
+  margin-bottom: 0;
+  /* margin-bottom: 40px; */
 
-  font-weight: Black;
+  font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
-  background-color: tomato;
+  color: var(--primary-white-color);
+  outline: 2px solid tomato;
 }
 
 .img-block {
