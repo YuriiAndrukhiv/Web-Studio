@@ -166,7 +166,7 @@ body {
 
 .contact-link::before{
   display: block;
-  content: "";
+  content: ""; 
   width: 16px;
   height: 11.2px;
   
@@ -226,7 +226,6 @@ body {
 .hero .hero-title {
   margin-top: 0;
   margin-bottom: 0;
-  /* margin-bottom: 40px; */
 
   font-weight: 900;
   font-size: 44px;
@@ -243,6 +242,13 @@ body {
   padding: 25px 100px;
   margin-bottom: 30px;
 }
+
+/* .img-block::before{
+  display: block;
+  content: "";
+  height: 70px;
+  background-image: url(../studio-images/antenna.svg);
+} */
 
 .features .content > li {
   margin-right: 30px;
