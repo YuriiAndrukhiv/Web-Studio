@@ -243,12 +243,33 @@ body {
   margin-bottom: 30px;
 }
 
-/* .img-block::before{
+.antenna::before{
   display: block;
   content: "";
   height: 70px;
-  background-image: url(../studio-images/antenna.svg);
-} */
+  background-image: url(../studio-images/antenna.png);
+}
+
+.clock::before {
+  display: block;
+  content: "";
+  height: 70px;
+  background-image: url(../studio-images/clock.png);
+}
+
+.diagram::before {
+  display: block;
+  content: "";
+  height: 70px;
+  background-image: url(../studio-images/diagram.png);
+}
+
+.astronaut::before {
+  display: block;
+  content: "";
+  height: 70px;
+  background-image: url(../studio-images/astronaut.png);
+}
 
 .features .content > li {
   margin-right: 30px;
