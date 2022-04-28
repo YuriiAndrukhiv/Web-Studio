@@ -21,6 +21,38 @@ img {
   list-style: none;
 }
 
+.social-networks .link .instagram:hover,
+.social-networks .link .instagram:focus{
+  background-color: var(--accent-color);
+}
+
+.instagram::after {
+  display: block;
+  content: "";
+  height: 44px;
+  background-image: url(../studio-images/logo/current-instagram.svg);
+}
+
+.twitter::after {
+  display: block;
+  content: "";
+  height: 44px;
+  background-image: url(../studio-images/logo/twitter.svg);
+}
+
+.facebook::after {
+  display: block;
+  content: "";
+  height: 44px;
+  background-image: url(../studio-images/logo/facebook.svg);
+}
+.linkedin::after {
+  display: block;
+  content: "";
+  height: 44px;
+  background-image: url(../studio-images/logo/twitter.svg);
+}
+
 .social-networks li {
   margin-right: 10px;
 }
@@ -164,12 +196,12 @@ body {
   color: var(--accent-color);
 }
 
-.contact-link::before{
+.contact-link::before {
   display: block;
-  content: ""; 
+  content: '';
   width: 16px;
   height: 11.2px;
-  
+
   background-size: contain;
   background-repeat: no-repeat;
   /* outline: 1px solid black; */
@@ -185,7 +217,7 @@ body {
   background-image: url(../studio-images/envelope-hover.svg);
 }
 
-.phone::before{
+.phone::before {
   margin-left: 10px;
   background-image: url(../studio-images/smartphone.svg);
 }
@@ -195,7 +227,7 @@ body {
   text-align: center;
 }
 
-.hero > .container{
+.hero > .container {
   padding: 0;
 }
 
@@ -203,11 +235,11 @@ body {
   height: 600px;
   outline: 2px solid tomato;
   background-image: linear-gradient(
-    to right,
-     rgba(47, 48, 58, 0.8),
-     rgba(47, 48, 58, 0.8)
-  ),
-  url("../studio-images/Team.jpg");
+      to right,
+      rgba(47, 48, 58, 0.8),
+      rgba(47, 48, 58, 0.8)
+    ),
+    url('../studio-images/Team.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -243,30 +275,30 @@ body {
   margin-bottom: 30px;
 }
 
-.antenna::before{
+.antenna::before {
   display: block;
-  content: "";
+  content: '';
   height: 70px;
   background-image: url(../studio-images/antenna.png);
 }
 
 .clock::before {
   display: block;
-  content: "";
+  content: '';
   height: 70px;
   background-image: url(../studio-images/clock.png);
 }
 
 .diagram::before {
   display: block;
-  content: "";
+  content: '';
   height: 70px;
   background-image: url(../studio-images/diagram.png);
 }
 
 .astronaut::before {
   display: block;
-  content: "";
+  content: '';
   height: 70px;
   background-image: url(../studio-images/astronaut.png);
 }
@@ -624,8 +656,8 @@ body {
   line-height: 1.8;
 }
 
-.footer .button::after{
-  content: "";
+.footer .button::after {
+  content: '';
   width: 24px;
   height: 24px;
   margin-left: 10px;
