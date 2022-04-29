@@ -30,6 +30,7 @@ img {
   display: block;
   content: "";
   height: 44px;
+  width: 44px;
   background-image: url(../studio-images/logo/current-instagram.svg);
 }
 
@@ -37,6 +38,7 @@ img {
   display: block;
   content: "";
   height: 44px;
+  width: 44px;
   background-image: url(../studio-images/logo/twitter.svg);
 }
 
@@ -44,12 +46,14 @@ img {
   display: block;
   content: "";
   height: 44px;
+  width: 44px;
   background-image: url(../studio-images/logo/facebook.svg);
 }
 .linkedin::after {
   display: block;
   content: "";
   height: 44px;
+  width: 44px;
   background-image: url(../studio-images/logo/linkedin.svg);
 }
 
