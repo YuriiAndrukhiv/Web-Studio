@@ -21,42 +21,6 @@ img {
   list-style: none;
 }
 
-.social-networks .link .instagram:hover,
-.social-networks .link .instagram:focus{
-  background-color: var(--accent-color);
-}
-
-.instagram::after {
-  display: block;
-  content: "";
-  height: 44px;
-  width: 44px;
-  background-image: url(../studio-images/logo/current-instagram.svg);
-}
-
-.twitter::after {
-  display: block;
-  content: "";
-  height: 44px;
-  width: 44px;
-  background-image: url(../studio-images/logo/twitter.svg);
-}
-
-.facebook::after {
-  display: block;
-  content: "";
-  height: 44px;
-  width: 44px;
-  background-image: url(../studio-images/logo/facebook.svg);
-}
-.linkedin::after {
-  display: block;
-  content: "";
-  height: 44px;
-  width: 44px;
-  background-image: url(../studio-images/logo/linkedin.svg);
-}
-
 .social-networks li {
   margin-right: 10px;
 }
@@ -427,6 +391,37 @@ body {
   text-align: center;
 }
 
+.instagram::after {
+  display: block;
+  content: '';
+  height: 44px;
+  width: 44px;
+  background-image: url(../studio-images/logo/current-instagram.svg);
+}
+
+.twitter::after {
+  display: block;
+  content: '';
+  height: 44px;
+  width: 44px;
+  background-image: url(../studio-images/logo/twitter.svg);
+}
+
+.facebook::after {
+  display: block;
+  content: '';
+  height: 44px;
+  width: 44px;
+  background-image: url(../studio-images/logo/facebook.svg);
+}
+.linkedin::after {
+  display: block;
+  content: '';
+  height: 44px;
+  width: 44px;
+  background-image: url(../studio-images/logo/linkedin.svg);
+}
+
 .regular-customers .title {
   margin-top: 0;
   margin-bottom: 50px;
@@ -615,10 +610,36 @@ body {
   color: var(--primary-white-color);
 }
 
-/* .footer .link:hover,
-.footer .link:focus {
-  color: var(--accent-color);
-} */
+.footer .instagram::after {
+  display: block;
+  content: '';
+  height: 44px;
+  width: 44px;
+  background-image: url(../studio-images/logo/footer-instagram.svg);
+}
+
+.footer .twitter::after {
+  display: block;
+  content: '';
+  height: 44px;
+  width: 44px;
+  background-image: url(../studio-images/logo/footer-current-twitter.svg);
+}
+
+.footer .facebook::after {
+  display: block;
+  content: '';
+  height: 44px;
+  width: 44px;
+  background-image: url(../studio-images/logo/footer-facebook.svg);
+}
+.footer .linkedin::after {
+  display: block;
+  content: '';
+  height: 44px;
+  width: 44px;
+  background-image: url(../studio-images/logo/footer-linkedin.svg);
+}
 
 .subscribe-content {
   margin-right: 12px;
