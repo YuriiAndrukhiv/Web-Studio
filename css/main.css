@@ -441,6 +441,55 @@ body {
   margin-right: 0;
 }
 
+.ya-and-co::after {
+  content: "";
+  display: block;
+  height: 90px;
+  width: 170;
+  background-image: url(../studio-images/logo/YA-&-CO.svg);
+}
+
+.company-tag-line-here::after {
+  content: "";
+  display: block;
+  height: 90px;
+  width: 170;
+  background-image: url(../studio-images/logo/COMPANY-TAG-LINE-HERE.svg);
+}
+
+.company::after {
+  content: "";
+  display: block;
+  height: 90px;
+  width: 170;
+  background-image: url(../studio-images/logo/COMPANY.svg);
+}
+
+.foster-peters::after {
+  content: "";
+  display: block;
+  height: 90px;
+  width: 170;
+  background-image: url(../studio-images/logo/FOSTER-PETERS.svg);
+}
+
+.brand::after {
+  content: "";
+  display: block;
+  height: 90px;
+  width: 170;
+  background-image: url(../studio-images/logo/BRAND.svg);
+}
+
+.company-tag-line::after {
+  content: "";
+  display: block;
+  height: 90px;
+  width: 170;
+  background-image: url(../studio-images/logo/COMPANY-TAG-LINE.svg);
+}
+
+
 /* Portfolio-page */
 
 .portfolio {
