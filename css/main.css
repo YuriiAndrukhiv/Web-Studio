@@ -243,32 +243,9 @@ body {
   margin-bottom: 30px;
 }
 
-.antenna::before {
-  display: block;
-  content: '';
+.features-icon {
+  width: 70px;
   height: 70px;
-  background-image: url(../studio-images/antenna.svg);
-}
-
-.clock::before {
-  display: block;
-  content: '';
-  height: 70px;
-  background-image: url(../studio-images/clock.svg);
-}
-
-.diagram::before {
-  display: block;
-  content: '';
-  height: 70px;
-  background-image: url(../studio-images/diagram.svg);
-}
-
-.astronaut::before {
-  display: block;
-  content: '';
-  height: 70px;
-  background-image: url(../studio-images/astronaut.svg);
 }
 
 .features .content > li {
