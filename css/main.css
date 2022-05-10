@@ -247,28 +247,28 @@ body {
   display: block;
   content: '';
   height: 70px;
-  background-image: url(../studio-images/antenna.png);
+  background-image: url(../studio-images/antenna.svg);
 }
 
 .clock::before {
   display: block;
   content: '';
   height: 70px;
-  background-image: url(../studio-images/clock.png);
+  background-image: url(../studio-images/clock.svg);
 }
 
 .diagram::before {
   display: block;
   content: '';
   height: 70px;
-  background-image: url(../studio-images/diagram.png);
+  background-image: url(../studio-images/diagram.svg);
 }
 
 .astronaut::before {
   display: block;
   content: '';
   height: 70px;
-  background-image: url(../studio-images/astronaut.png);
+  background-image: url(../studio-images/astronaut.svg);
 }
 
 .features .content > li {
@@ -442,7 +442,7 @@ body {
 }
 
 .ya-and-co::after {
-  content: "";
+  content: '';
   display: block;
   height: 90px;
   width: 170px;
@@ -450,7 +450,7 @@ body {
 }
 
 .company-tag-line-here::after {
-  content: "";
+  content: '';
   display: block;
   height: 90px;
   width: 170px;
@@ -458,7 +458,7 @@ body {
 }
 
 .company::after {
-  content: "";
+  content: '';
   display: block;
   height: 90px;
   width: 170px;
@@ -466,7 +466,7 @@ body {
 }
 
 .foster-peters::after {
-  content: "";
+  content: '';
   display: block;
   height: 90px;
   width: 170px;
@@ -474,7 +474,7 @@ body {
 }
 
 .brand::after {
-  content: "";
+  content: '';
   display: block;
   height: 90px;
   width: 170px;
@@ -482,13 +482,12 @@ body {
 }
 
 .company-tag-line::after {
-  content: "";
+  content: '';
   display: block;
   height: 90px;
   width: 170px;
   background-image: url(../studio-images/logo/COMPANY-TAG-LINE.svg);
 }
-
 
 /* Portfolio-page */
 
