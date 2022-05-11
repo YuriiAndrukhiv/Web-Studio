@@ -235,7 +235,7 @@ body {
   outline: 2px solid tomato;
 }
 
-.img-block {
+.features .img-block {
   background-color: #f5f4fa;
   width: 270px;
   height: 120px;
@@ -408,6 +408,15 @@ body {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
+}
+
+.regular-customers .img-block {
+  width: 170px;
+  height: 90px;
+  padding: center;
+
+  outline: 1px solid #afb1b8;
+  border-radius: 4px;
 }
 
 .regular-customers .content li {
