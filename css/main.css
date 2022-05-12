@@ -413,10 +413,41 @@ body {
 .regular-customers .img-block {
   width: 170px;
   height: 90px;
-  padding: center;
 
   outline: 1px solid #afb1b8;
   border-radius: 4px;
+}
+
+.regular-customers-icon-ya-and-co {
+  width: 44.27px;
+  height: 49.23px;
+
+  background-position: center;
+}
+
+.regular-customers-icon-company-tag-line-here {
+  width: 40px;
+  height: 52px;
+}
+
+.regular-customers-icon-company {
+  width: 41px;
+  height: 42.6px;
+}
+
+.regular-customers-icon-foster-peters {
+  width: 79.66px;
+  height: 42.02px;
+}
+
+.regular-customers-icon-brand {
+  width: 59px;
+  height: 47px;
+}
+
+.regular-customers-icon-company-tag-line {
+  width: 88.48px;
+  height: 45.44px;
 }
 
 .regular-customers .content li {
@@ -425,54 +456,6 @@ body {
 
 .regular-customers .content li:last-child {
   margin-right: 0;
-}
-
-.ya-and-co::after {
-  content: '';
-  display: block;
-  height: 90px;
-  width: 170px;
-  background-image: url(../studio-images/logo/YA-&-CO.svg);
-}
-
-.company-tag-line-here::after {
-  content: '';
-  display: block;
-  height: 90px;
-  width: 170px;
-  background-image: url(../studio-images/logo/COMPANY-TAG-LINE-HERE.svg);
-}
-
-.company::after {
-  content: '';
-  display: block;
-  height: 90px;
-  width: 170px;
-  background-image: url(../studio-images/logo/COMPANY.svg);
-}
-
-.foster-peters::after {
-  content: '';
-  display: block;
-  height: 90px;
-  width: 170px;
-  background-image: url(../studio-images/logo/FOSTER-PETERS.svg);
-}
-
-.brand::after {
-  content: '';
-  display: block;
-  height: 90px;
-  width: 170px;
-  background-image: url(../studio-images/logo/BRAND.svg);
-}
-
-.company-tag-line::after {
-  content: '';
-  display: block;
-  height: 90px;
-  width: 170px;
-  background-image: url(../studio-images/logo/COMPANY-TAG-LINE.svg);
 }
 
 /* Portfolio-page */
