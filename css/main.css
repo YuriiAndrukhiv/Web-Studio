@@ -41,13 +41,13 @@ img {
   --primary-white-color: #ffffff;
   --accent-color: #2196f3;
   --two-word-logo-color: #000000;
-  --studio-background-color: #2f303a;
   --our-team-background-color: #f5f4fa;
   --our-team-and-regular-customers-background-images-color: #afb1b8;
 
   /* Footer colours */
   --footer-background-color: #2f303a;
   --footer-contacts: #ffffff99;
+  --footer-background-social-networks-color: rgba(255, 255, 255, 0.1);
 }
 
 body {
@@ -369,7 +369,7 @@ body {
 
   width: 44px;
   height: 44px;
-  border-radius: 40px;
+  border-radius: 44px;
   cursor: pointer;
 }
 
@@ -378,43 +378,26 @@ body {
   background-color: var(--accent-color);
 }
 
-.icon-instagram {
+.team .icon-instagram,
+.team .icon-twitter,
+.team .icon-facebook,
+.team .icon-linkedin
+ {
   width: 20px;
   height: 20px;
+
   fill: var(--our-team-and-regular-customers-background-images-color);
 }
 
-.team .icon-instagram:hover {
-  fill: var(--primary-white-color);
-}
-
-.icon-twitter {
-  width: 20px;
-  height: 20px;
-  fill: var(--our-team-and-regular-customers-background-images-color);
-}
-
-.team .icon-twitter:hover {
-  fill: var(--primary-white-color);
-}
-
-.icon-facebook {
-  width: 20px;
-  height: 20px;
-  fill: var(--our-team-and-regular-customers-background-images-color);
-}
-
-.team .icon-facebook:hover {
-  fill: var(--primary-white-color);
-}
-
-.icon-linkedin {
-  width: 20px;
-  height: 20px;
-  fill: var(--our-team-and-regular-customers-background-images-color);
-}
-
-.team .icon-linkedin:hover {
+.team .icon-instagram:hover,
+.team .icon-instagram:focus,
+.team .icon-twitter:hover,
+.team .icon-twitter:focus,
+.team .icon-facebook:hover,
+.team .icon-facebook:focus,
+.team .icon-linkedin:hover
+.team .icon-linkedin:focus
+ {
   fill: var(--primary-white-color);
 }
 
@@ -438,7 +421,8 @@ body {
   border-radius: 4px;
 }
 
-.regular-customers .img-block:hover {
+.regular-customers .img-block:hover,
+.regular-customers .img-block:focus {
   outline: 1px solid var(--accent-color);
   cursor: pointer;
 }
@@ -680,35 +664,31 @@ body {
   color: var(--primary-white-color);
 }
 
-.footer .instagram::after {
-  display: block;
-  content: '';
-  height: 44px;
+.footer .img-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   width: 44px;
-  background-image: url(../studio-images/logo/footer-instagram.svg);
+  height: 44px;
+  background-color: var(--footer-background-social-networks-color);
+  border-radius: 44px;
 }
 
-.footer .twitter::after {
-  display: block;
-  content: '';
-  height: 44px;
-  width: 44px;
-  background-image: url(../studio-images/logo/footer-current-twitter.svg);
+.footer .img-block:hover,
+.footer .img-block:focus {
+  background-color: var(--accent-color);
 }
 
-.footer .facebook::after {
-  display: block;
-  content: '';
-  height: 44px;
-  width: 44px;
-  background-image: url(../studio-images/logo/footer-facebook.svg);
-}
-.footer .linkedin::after {
-  display: block;
-  content: '';
-  height: 44px;
-  width: 44px;
-  background-image: url(../studio-images/logo/footer-linkedin.svg);
+.footer .icon-instagram,
+.footer .icon-twitter,
+.footer .icon-facebook,
+.footer .icon-linkedin
+ {
+  width: 20px;
+  height: 20px;
+
+  fill: var(--primary-white-color);
 }
 
 .subscribe-content {
