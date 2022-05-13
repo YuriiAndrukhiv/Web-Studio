@@ -362,35 +362,60 @@ body {
   text-align: center;
 }
 
-.instagram::after {
-  display: block;
-  content: '';
-  height: 44px;
+.team .img-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   width: 44px;
-  background-image: url(../studio-images/logo/current-instagram.svg);
+  height: 44px;
+  border-radius: 40px;
+  cursor: pointer;
 }
 
-.twitter::after {
-  display: block;
-  content: '';
-  height: 44px;
-  width: 44px;
-  background-image: url(../studio-images/logo/twitter.svg);
+.team .img-block:hover,
+.team .img-block:focus {
+  background-color: var(--accent-color);
 }
 
-.facebook::after {
-  display: block;
-  content: '';
-  height: 44px;
-  width: 44px;
-  background-image: url(../studio-images/logo/facebook.svg);
+.icon-instagram {
+  width: 20px;
+  height: 20px;
+  fill: var(--our-team-and-regular-customers-background-images-color);
 }
-.linkedin::after {
-  display: block;
-  content: '';
-  height: 44px;
-  width: 44px;
-  background-image: url(../studio-images/logo/linkedin.svg);
+
+.team .icon-instagram:hover {
+  fill: var(--primary-white-color);
+}
+
+.icon-twitter {
+  width: 20px;
+  height: 20px;
+  fill: var(--our-team-and-regular-customers-background-images-color);
+}
+
+.team .icon-twitter:hover {
+  fill: var(--primary-white-color);
+}
+
+.icon-facebook {
+  width: 20px;
+  height: 20px;
+  fill: var(--our-team-and-regular-customers-background-images-color);
+}
+
+.team .icon-facebook:hover {
+  fill: var(--primary-white-color);
+}
+
+.icon-linkedin {
+  width: 20px;
+  height: 20px;
+  fill: var(--our-team-and-regular-customers-background-images-color);
+}
+
+.team .icon-linkedin:hover {
+  fill: var(--primary-white-color);
 }
 
 .regular-customers .title {
@@ -404,65 +429,78 @@ body {
   text-align: center;
 }
 
-/* .regular-customers-actions {
-  display: flex;
-} */
-
 .regular-customers .img-block {
   width: 170px;
   height: 90px;
 
-  outline: 1px solid var(--our-team-and-regular-customers-background-images-color);
+  outline: 1px solid
+    var(--our-team-and-regular-customers-background-images-color);
   border-radius: 4px;
 }
 
 .regular-customers .img-block:hover {
   outline: 1px solid var(--accent-color);
+  cursor: pointer;
 }
 
-.regular-customers-icon-ya-and-co {
+.icon-ya-and-co {
   width: 44.27px;
   height: 49.23px;
-   fill: var(--our-team-and-regular-customers-background-images-color);
+  fill: var(--our-team-and-regular-customers-background-images-color);
 }
 
-.regular-customers-icon-ya-and-co:hover {
+.icon-ya-and-co:hover {
   fill: var(--accent-color);
 }
 
-.regular-customers-icon-company-tag-line-here {
+.icon-company-tag-line-here {
   width: 40px;
   height: 52px;
+  fill: var(--our-team-and-regular-customers-background-images-color);
 }
 
-.regular-customers-icon-company-tag-line-here:hover {
+.icon-company-tag-line-here:hover {
   fill: var(--accent-color);
 }
 
-.regular-customers-icon-company {
+.icon-company {
   width: 41px;
   height: 42.6px;
+  fill: var(--our-team-and-regular-customers-background-images-color);
 }
 
+.icon-company:hover {
+  fill: var(--accent-color);
+}
 
-.regular-customers-icon-foster-peters {
+.icon-foster-peters {
   width: 79.66px;
   height: 42.02px;
   fill: var(--our-team-and-regular-customers-background-images-color);
 }
 
-.regular-customers-icon-foster-peters:hover {
+.icon-foster-peters:hover {
   fill: var(--accent-color);
 }
 
-.regular-customers-icon-brand {
+.icon-brand {
   width: 59px;
   height: 47px;
+  fill: var(--our-team-and-regular-customers-background-images-color);
 }
 
-.regular-customers-icon-company-tag-line {
+.icon-brand:hover {
+  fill: var(--accent-color);
+}
+
+.icon-company-tag-line {
   width: 88.48px;
   height: 45.44px;
+  fill: var(--our-team-and-regular-customers-background-images-color);
+}
+
+.icon-company-tag-line:hover {
+  fill: var(--accent-color);
 }
 
 .regular-customers .content li {
