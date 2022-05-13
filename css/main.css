@@ -410,6 +410,10 @@ body {
   text-align: center;
 }
 
+.regular-customers-actions {
+  display: flex;
+}
+
 .regular-customers .img-block {
   width: 170px;
   height: 90px;
@@ -421,8 +425,6 @@ body {
 .regular-customers-icon-ya-and-co {
   width: 44.27px;
   height: 49.23px;
-
-  background-position: center;
 }
 
 .regular-customers-icon-company-tag-line-here {
@@ -438,6 +440,7 @@ body {
 .regular-customers-icon-foster-peters {
   width: 79.66px;
   height: 42.02px;
+  fill: var(--our-team-and-regular-customers-background-images-color);
 }
 
 .regular-customers-icon-brand {
