@@ -172,22 +172,16 @@ body {
 
   background-size: contain;
   background-repeat: no-repeat;
-  /* outline: 1px solid black; */
-}
-
-.phone:hover,
-.phone:focus {
-  color: var(--accent-color);
 }
 
 .email::before {
   margin-right: 10px;
-  background-image: url(../studio-images/envelope-hover.svg);
+  background-image: url(../studio-images/logo/email.svg);
 }
 
 .phone::before {
   margin-left: 10px;
-  background-image: url(../studio-images/smartphone.svg);
+  background-image: url(../studio-images/logo/smartphone.svg);
 }
 
 /* Studio */
@@ -410,9 +404,9 @@ body {
   text-align: center;
 }
 
-.regular-customers-actions {
+/* .regular-customers-actions {
   display: flex;
-}
+} */
 
 .regular-customers .img-block {
   width: 170px;
@@ -422,9 +416,18 @@ body {
   border-radius: 4px;
 }
 
+.regular-customers .img-block:hover {
+  outline: 1px solid var(--accent-color);
+}
+
 .regular-customers-icon-ya-and-co {
   width: 44.27px;
   height: 49.23px;
+   fill: var(--our-team-and-regular-customers-background-images-color);
+}
+
+.regular-customers-icon-ya-and-co:hover {
+  fill: var(--accent-color);
 }
 
 .regular-customers-icon-company-tag-line-here {
@@ -432,15 +435,24 @@ body {
   height: 52px;
 }
 
+.regular-customers-icon-company-tag-line-here:hover {
+  fill: var(--accent-color);
+}
+
 .regular-customers-icon-company {
   width: 41px;
   height: 42.6px;
 }
 
+
 .regular-customers-icon-foster-peters {
   width: 79.66px;
   height: 42.02px;
   fill: var(--our-team-and-regular-customers-background-images-color);
+}
+
+.regular-customers-icon-foster-peters:hover {
+  fill: var(--accent-color);
 }
 
 .regular-customers-icon-brand {
@@ -707,6 +719,6 @@ body {
   height: 24px;
   margin-left: 10px;
   margin-right: 28px;
-  background-image: url(../studio-images/icon-send.svg);
+  background-image: url(../studio-images/logo/icon-send.svg);
   background-size: contain;
 }
