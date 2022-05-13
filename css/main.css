@@ -418,7 +418,7 @@ body {
   width: 170px;
   height: 90px;
 
-  outline: 1px solid #afb1b8;
+  outline: 1px solid var(--our-team-and-regular-customers-background-images-color);
   border-radius: 4px;
 }
 
