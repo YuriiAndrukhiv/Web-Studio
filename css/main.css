@@ -394,7 +394,8 @@ body {
 .team .icon-twitter:focus,
 .team .icon-facebook:hover,
 .team .icon-facebook:focus,
-.team .icon-linkedin:hover .team .icon-linkedin:focus {
+.team .icon-linkedin:hover,
+.team .icon-linkedin:focus {
   fill: var(--primary-white-color);
 }
 
