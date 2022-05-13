@@ -164,7 +164,7 @@ body {
   color: var(--accent-color);
 }
 
-.contact-link::before {
+/* .contact-link::before {
   display: block;
   content: '';
   width: 16px;
@@ -172,17 +172,27 @@ body {
 
   background-size: contain;
   background-repeat: no-repeat;
-}
+} */
 
-.email::before {
+/* .email::before {
   margin-right: 10px;
   background-image: url(../studio-images/logo/email.svg);
+} */
+
+.icon-email {
+  width: 16px;
+  height: 11.2px;
 }
 
-.phone::before {
+.icon-phone {
+  width: 10px;
+  height: 14.94px;
+}
+
+/* .phone::before {
   margin-left: 10px;
   background-image: url(../studio-images/logo/smartphone.svg);
-}
+} */
 
 /* Studio */
 .hero {
