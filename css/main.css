@@ -381,8 +381,7 @@ body {
 .team .icon-instagram,
 .team .icon-twitter,
 .team .icon-facebook,
-.team .icon-linkedin
- {
+.team .icon-linkedin {
   width: 20px;
   height: 20px;
 
@@ -395,9 +394,7 @@ body {
 .team .icon-twitter:focus,
 .team .icon-facebook:hover,
 .team .icon-facebook:focus,
-.team .icon-linkedin:hover
-.team .icon-linkedin:focus
- {
+.team .icon-linkedin:hover .team .icon-linkedin:focus {
   fill: var(--primary-white-color);
 }
 
@@ -413,9 +410,12 @@ body {
 }
 
 .regular-customers .img-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   width: 170px;
   height: 90px;
-
   outline: 1px solid
     var(--our-team-and-regular-customers-background-images-color);
   border-radius: 4px;
@@ -683,8 +683,7 @@ body {
 .footer .icon-instagram,
 .footer .icon-twitter,
 .footer .icon-facebook,
-.footer .icon-linkedin
- {
+.footer .icon-linkedin {
   width: 20px;
   height: 20px;
 
