@@ -388,10 +388,10 @@ body {
   background-color: var(--accent-color);
 }
 
-.team .icon-instagram,
-.team .icon-twitter,
-.team .icon-facebook,
-.team .icon-linkedin {
+.team .instagram,
+.team .twitter,
+.team .facebook,
+.team .linkedin {
   width: 20px;
   height: 20px;
 
