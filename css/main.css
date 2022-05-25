@@ -382,10 +382,10 @@ body {
   border-radius: 44px;
 }
 
-.team .img-block:hover,
+/* .team .img-block:hover,
 .team .img-block:focus {
   background-color: var(--accent-color);
-}
+} */
 
 .team .icon-instagram,
 .team .icon-twitter,
@@ -394,7 +394,7 @@ body {
   width: 20px;
   height: 20px;
 
-  fill: var(--our-team-and-regular-customers-background-images-color);
+  --color2: var(--secondary-text-color);
 }
 
 .team .icon-instagram:hover,
@@ -405,7 +405,9 @@ body {
 .team .icon-facebook:focus,
 .team .icon-linkedin:hover,
 .team .icon-linkedin:focus {
-  fill: var(--primary-white-color);
+
+  --color2: var(--accent-color);
+  --color3: var(--primary-white-color);
 }
 
 .regular-customers .title {
