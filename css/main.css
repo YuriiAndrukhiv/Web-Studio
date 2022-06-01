@@ -401,7 +401,7 @@ body {
 .team .icon-linkedin:hover,
 .team .icon-linkedin:focus {
 
-  --color2: var(--accent-color);
+  --color5: var(--accent-color);
   --color3: var(--primary-white-color);
 }
 
