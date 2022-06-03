@@ -29,6 +29,7 @@ img {
   margin-right: 0;
 }
 
+
 /* Колір основного тексту: #212121 */
 /* Вторинний колір тексту: #757575 */
 /* білий: #FFFFFF */
@@ -372,34 +373,16 @@ body {
   text-align: center;
 }
 
-.team .img-block {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  width: 44px;
-  height: 44px;
-  border-radius: 44px;
-}
-
-.team .icon-instagram,
-.team .icon-twitter,
-.team .icon-facebook,
-.team .icon-linkedin {
+.team .icon {
   width: 44px;
   height: 44px;
 
   --color2: var(--secondary-text-color);
 }
 
-.team .icon-instagram:hover,
-.team .icon-instagram:focus,
-.team .icon-twitter:hover,
-.team .icon-twitter:focus,
-.team .icon-facebook:hover,
-.team .icon-facebook:focus,
-.team .icon-linkedin:hover,
-.team .icon-linkedin:focus {
+.team .icon:hover,
+.team .icon:focus
+ {
 
   --color5: var(--accent-color);
   --color3: var(--primary-white-color);
@@ -681,8 +664,7 @@ body {
 
   width: 44px;
   height: 44px;
-  border-radius: 44px;
-  background-color: var(--footer-background-social-networks-color);
+  border-radius: 50%;
 }
 
 .footer .img-block:hover,
@@ -697,8 +679,6 @@ body {
   width: 44px;
   height: 44px;
 }
-
-.footer .icon-instagramH
 
 .subscribe-content {
   margin-right: 12px;
