@@ -373,6 +373,10 @@ body {
   text-align: center;
 }
 
+.team .social-networks a {
+  display: inline-block;
+}
+
 .team .icon {
   width: 44px;
   height: 44px;
