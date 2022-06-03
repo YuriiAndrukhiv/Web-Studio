@@ -422,11 +422,6 @@ body {
   height: 49.23px;
 }
 
-.icon-ya-and-co:hover,
-.icon-ya-and-co:focus {
-  --color3: var(--accent-color);
-}
-
 .icon-ya-and-co:hover {
   fill: var(--accent-color);
 }
