@@ -16,7 +16,6 @@ img {
 .social-networks {
   display: flex;
   justify-content: center;
-  margin-bottom: 24px;
   padding: 0;
   list-style: none;
 }
@@ -337,6 +336,7 @@ body {
 
 .team .content > li {
   margin-right: 30px;
+  padding-bottom: 24px;
 }
 
 .team .content > li:last-child {
@@ -659,10 +659,6 @@ body {
 }
 
 .footer .img-block {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
   width: 44px;
   height: 44px;
   border-radius: 50%;
@@ -673,10 +669,7 @@ body {
   background-color: var(--accent-color);
 }
 
-.footer .icon-instagram,
-.footer .icon-twitter,
-.footer .icon-facebook,
-.footer .icon-linkedin {
+.footer .icon {
   width: 44px;
   height: 44px;
 }
