@@ -28,7 +28,6 @@ img {
   margin-right: 0;
 }
 
-
 /* Колір основного тексту: #212121 */
 /* Вторинний колір тексту: #757575 */
 /* білий: #FFFFFF */
@@ -42,7 +41,7 @@ img {
   --accent-color: #2196f3;
   --two-word-logo-color: #000000;
   --our-team-background-color: #f5f4fa;
-  --our-team-and-regular-customers-background-images-color: #afb1b8;
+  --icon-color: #afb1b8;
 
   /* Footer colours */
   --footer-background-color: #2f303a;
@@ -382,9 +381,7 @@ body {
 }
 
 .team .icon:hover,
-.team .icon:focus
- {
-
+.team .icon:focus {
   --color5: var(--accent-color);
   --color3: var(--primary-white-color);
 }
@@ -400,27 +397,32 @@ body {
   text-align: center;
 }
 
-.regular-customers .img-block {
+.regular-customers .icon-client {
+  fill: var(--icon-color);
+}
+
+.regular-customers li {
   display: flex;
   justify-content: center;
   align-items: center;
 
   width: 170px;
   height: 90px;
-  border: solid;
 
+  border: solid;
+  border-color: var(--secondary-text-color);
   border-width: 1px;
-    var(--our-team-and-regular-customers-background-images-color);
   border-radius: 4px;
 }
 
-.regular-customers .img-block:hover,
-.regular-customers .img-block:focus {
-  outline: 1px solid var(--accent-color);
+.regular-customers li:hover,
+.regular-customers li:focus {
+  fill:  var(--accent-color);
 }
 
-.icon-client {
-  
+.regular-customers li:hover,
+.regular-customers li:focus {
+  border-color:  var(--accent-color);
 }
 
 .regular-customers .content li {
