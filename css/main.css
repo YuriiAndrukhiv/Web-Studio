@@ -397,10 +397,6 @@ body {
   text-align: center;
 }
 
-.regular-customers .icon-client {
-  /* fill: var(--icon-color); */
-}
-
 .regular-customers li {
   display: flex;
   justify-content: center;
@@ -415,8 +411,12 @@ body {
   border-radius: 4px;
 }
 
-.regular-customers li:hover,
-.regular-customers li:focus {
+.regular-customers .icon-client {
+  fill: var(--icon-color);
+}
+
+.regular-customers li:hover .icon-client,
+.regular-customers li:focus .icon-client {
   fill: var(--accent-color);
 }
 
