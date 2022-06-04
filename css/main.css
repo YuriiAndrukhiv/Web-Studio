@@ -398,7 +398,7 @@ body {
 }
 
 .regular-customers .icon-client {
-  fill: var(--icon-color);
+  /* fill: var(--icon-color); */
 }
 
 .regular-customers li {
@@ -417,12 +417,12 @@ body {
 
 .regular-customers li:hover,
 .regular-customers li:focus {
-  fill:  var(--accent-color);
+  fill: var(--accent-color);
 }
 
 .regular-customers li:hover,
 .regular-customers li:focus {
-  border-color:  var(--accent-color);
+  border-color: var(--accent-color);
 }
 
 .regular-customers .content li {
