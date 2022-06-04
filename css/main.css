@@ -407,7 +407,9 @@ body {
 
   width: 170px;
   height: 90px;
-  outline: 1px solid
+  border: solid;
+
+  border-width: 1px;
     var(--our-team-and-regular-customers-background-images-color);
   border-radius: 4px;
 }
@@ -417,63 +419,8 @@ body {
   outline: 1px solid var(--accent-color);
 }
 
-.icon-ya-and-co {
-  width: 44.27px;
-  height: 49.23px;
-}
-
-.icon-ya-and-co:hover {
-  fill: var(--accent-color);
-}
-
-.icon-company-tag-line-here {
-  width: 40px;
-  height: 52px;
-  fill: var(--our-team-and-regular-customers-background-images-color);
-}
-
-.icon-company-tag-line-here:hover {
-  fill: var(--accent-color);
-}
-
-.icon-company {
-  width: 41px;
-  height: 42.6px;
-  fill: var(--our-team-and-regular-customers-background-images-color);
-}
-
-.icon-company:hover {
-  fill: var(--accent-color);
-}
-
-.icon-foster-peters {
-  width: 79.66px;
-  height: 42.02px;
-  fill: var(--our-team-and-regular-customers-background-images-color);
-}
-
-.icon-foster-peters:hover {
-  fill: var(--accent-color);
-}
-
-.icon-brand {
-  width: 59px;
-  height: 47px;
-  fill: var(--our-team-and-regular-customers-background-images-color);
-}
-
-.icon-brand:hover {
-  fill: var(--accent-color);
-}
-
-.icon-company-tag-line {
-  width: 88.48px;
-  height: 45.44px;
-  fill: var(--our-team-and-regular-customers-background-images-color);
-}
-
-.icon-company-tag-line:hover {
-  fill: var(--accent-color);
+.icon-client {
+  
 }
 
 .regular-customers .content li {
