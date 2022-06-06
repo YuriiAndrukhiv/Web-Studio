@@ -165,7 +165,6 @@ body {
 
 .icon {
  fill: var(--icon-color);
- padding-right: 10px;
 }
 
 header a:hover .icon {
