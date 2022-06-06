@@ -165,6 +165,7 @@ body {
 
 .icon {
  fill: var(--icon-color);
+ padding-right: 10px;
 }
 
 header a:hover .icon {
@@ -487,6 +488,11 @@ header a:hover .icon {
 
   font-size: 18px;
   line-height: 1.5;
+}
+
+.portfolio-description:hover,
+.portfolio-description:focus {
+ background-color: var(--accent-color);
 }
 
 .portfolio-item-title {
