@@ -156,6 +156,8 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+
+  gap: 10px;
 }
 
 .site-contacts .contact-link:hover,
