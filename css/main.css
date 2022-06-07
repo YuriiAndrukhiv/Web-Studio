@@ -166,7 +166,7 @@ body {
 }
 
 .icon {
- fill: var(--icon-color);
+  fill: var(--icon-color);
 }
 
 header a:hover .icon {
@@ -204,6 +204,7 @@ header a:hover .icon {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   color: var(--primary-white-color);
   background-color: var(--accent-color);
+  border-style: none;
 }
 
 .hero .hero-title {
@@ -324,6 +325,8 @@ header a:hover .icon {
 
 .team .team-item {
   background-color: var(--primary-white-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .team-portret {
@@ -420,10 +423,6 @@ header a:hover .icon {
   font-size: 16px;
   line-height: 1.6;
 }
-.portfolio .button.current {
-  color: var(--primary-white-color);
-  background-color: var(--accent-color);
-}
 
 .portfolio-nav {
   margin-bottom: 50px;
@@ -434,6 +433,28 @@ header a:hover .icon {
 
 .portfolio-nav .item + .item {
   margin-left: 8px;
+}
+
+.portfolio .button {
+  display: inline-block;
+  text-align: center;
+  padding: 6px 22px;
+  min-width: 73px;
+  background-color: var(--our-team-background-color);
+  border-radius: 4px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  border-style: none;
+}
+
+.portfolio .button:hover,
+.portfolio .button:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .portfolio-list {
@@ -461,6 +482,11 @@ header a:hover .icon {
 .portfolio-item {
   background-color: var(--primary-white-color);
   border: 1px solid #eeeeee;
+}
+
+.portfolio-item:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .portfolio-image {
@@ -493,7 +519,7 @@ header a:hover .icon {
 
 .portfolio-description:hover,
 .portfolio-description:focus {
- background-color: var(--accent-color);
+  background-color: var(--accent-color);
 }
 
 .portfolio-item-title {
