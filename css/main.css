@@ -165,6 +165,10 @@ body {
   color: var(--accent-color);
 }
 
+.site-contacts .contact-link svg {
+  max-height: 11px;
+}
+
 .icon {
   fill: var(--icon-color);
 }
