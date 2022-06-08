@@ -231,11 +231,6 @@ header a:hover .icon {
   margin-bottom: 30px;
 }
 
-.features-icon {
-  width: 70px;
-  height: 70px;
-}
-
 .features .content > li {
   margin-right: 30px;
 }
@@ -360,10 +355,7 @@ header a:hover .icon {
 }
 
 .team .icon {
-  width: 44px;
-  height: 44px;
   display: block;
-
   --color2: var(--secondary-text-color);
 }
 
@@ -626,11 +618,6 @@ header a:hover .icon {
 .footer .img-block:hover,
 .footer .img-block:focus {
   background-color: var(--accent-color);
-}
-
-.footer .icon {
-  width: 44px;
-  height: 44px;
 }
 
 .subscribe-content {
