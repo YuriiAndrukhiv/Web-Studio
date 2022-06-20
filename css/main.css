@@ -70,7 +70,7 @@ body {
   padding-left: 15px;
   padding-right: 15px;
 
-  outline: 2px solid tomato;
+  /* outline: 2px solid tomato; */
 }
 
 .section {
@@ -189,7 +189,6 @@ header a:hover .icon {
 
 .overlay {
   height: 600px;
-  outline: 2px solid tomato;
   background-image: linear-gradient(
       to right,
       rgba(47, 48, 58, 0.8),
@@ -221,7 +220,6 @@ header a:hover .icon {
   line-height: 1.36;
   letter-spacing: 0.06em;
   color: var(--primary-white-color);
-  outline: 2px solid tomato;
 }
 
 .features .img-block {
@@ -488,8 +486,8 @@ header a:hover .icon {
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.portfolio-item .a{
-  color: var(--title-text-color)
+.portfolio-item .a {
+  color: var(--title-text-color);
 }
 
 .portfolio-image {
