@@ -268,15 +268,40 @@ header a:hover .icon {
   text-align: center;
 }
 
-.our-work .content > li {
+.about-item {
+  position: relative;
+}
+
+.about-text {
+  position: absolute;
+  bottom: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  height: 70px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: var(--primary-white-color);
+  background-color: rgba(47, 48, 58, 0.8);
+}
+
+.our-work .content > .about-item {
   margin-right: 30px;
 }
 
-.our-work .content > li:last-child {
+.our-work .content > .about-item:last-child {
   margin-right: 0;
 }
 
-.our-work .item-title {
+/* .our-work .item-title {
   margin: 0;
 
   color: var(--primary-white-color);
@@ -295,7 +320,7 @@ header a:hover .icon {
   align-items: center;
 
   background: rgba(47, 48, 58, 0.8);
-}
+} */
 
 .team {
   background-color: var(--our-team-background-color);
