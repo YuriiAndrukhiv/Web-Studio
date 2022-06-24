@@ -136,7 +136,7 @@ body {
 }
 
 .current-page::after {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   bottom: 0;
@@ -551,16 +551,50 @@ header a:hover .icon {
   line-height: 1.8;
 }
 
-.portfolio-description {
-  margin: 0;
-
-  font-size: 18px;
-  line-height: 1.5;
+.card-img {
+  position: relative;
+  overflow: hidden;
 }
 
-.portfolio-description:hover,
-.portfolio-description:focus {
-  background-color: var(--accent-color);
+.portfolio-description {
+  opacity: 1;
+  position: absolute;
+
+  margin: 0;
+  padding-right: 24px;
+  padding-left: 24px;
+  padding-top: 63px;
+  padding-bottom: 63px;
+
+  width: 100%;
+  height: 100%;
+
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.56;
+  letter-spacing: 0.03em;
+  text-align: left;
+
+  background: rgba(33, 150, 243, 0.9);
+}
+
+.card-img:hover .portfolio-description {
+  opacity: 1;
+  transform: translateY(-100%);
+}
+
+.card-content {
+  border-bottom: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  box-sizing: border-box;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 24px;
+  padding-left: 24px;
 }
 
 .portfolio-item-title {
