@@ -557,7 +557,6 @@ header a:hover .icon {
 }
 
 .portfolio-description {
-  opacity: 1;
   position: absolute;
 
   margin: 0;
@@ -581,7 +580,6 @@ header a:hover .icon {
 }
 
 .card-img:hover .portfolio-description {
-  opacity: 1;
   transform: translateY(-100%);
 }
 
