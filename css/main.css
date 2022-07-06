@@ -136,6 +136,7 @@ body {
 }
 
 .current-page::after {
+  opacity: 0;
   content: '';
   display: block;
   position: absolute;
@@ -148,9 +149,14 @@ body {
   background-color: var(--accent-color);
 }
 
+/* .current-page::after:hover {
+  opacity: 1;
+} */
+
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--accent-color);
+  opacity: 1;
 }
 
 .site-contacts {
