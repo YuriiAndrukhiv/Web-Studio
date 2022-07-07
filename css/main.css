@@ -135,11 +135,12 @@ body {
   letter-spacing: 0.02em;
 }
 
-.current-page::after {
+.current-page::after,
+.link:hover::after {
   content: '';
   display: block;
   position: absolute;
-  opacity: 0;
+  opacity: 1;
   bottom: 0;
 
   width: 100%;
