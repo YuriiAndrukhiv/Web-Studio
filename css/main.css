@@ -269,6 +269,26 @@ header a:hover .icon {
   background-color: #ffffff;
 }
 
+.button-close {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+
+  width: 30px;
+  height: 30px;
+  padding: 0;
+
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  border-radius: 50%;
+  background-color: var(--primary-white-color);
+}
+
+/* .icon-close {
+  width: 11px;
+  height: 11px;
+} */
+
 .features .img-block {
   background-color: #f5f4fa;
   width: 270px;
