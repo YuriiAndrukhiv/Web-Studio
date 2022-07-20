@@ -266,7 +266,10 @@ header a:hover .icon {
   min-width: 528x;
   min-height: 581px;
 
-  background-color: #ffffff;
+  background-color: var(--primary-white-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
 }
 
 .button-close {
@@ -284,10 +287,11 @@ header a:hover .icon {
   background-color: var(--primary-white-color);
 }
 
-/* .icon-close {
-  width: 11px;
-  height: 11px;
-} */
+.icon-close {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
 
 .features .img-block {
   background-color: #f5f4fa;
