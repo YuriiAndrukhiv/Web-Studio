@@ -287,12 +287,6 @@ header a:hover .icon {
   background-color: var(--primary-white-color);
 }
 
-.icon-close {
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
-}
-
 .features .img-block {
   background-color: #f5f4fa;
   width: 270px;
