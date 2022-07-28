@@ -485,21 +485,37 @@
         <use href="./studio-images/logo/symbol-defs.svg#icon-close"></use>
        </svg>
       </button>
-      <form class="callback-form">
+      <form class="form callback-form">
         <b>Залиште свої дані, ми вам зателефонуємо</b>
+
+        <div class="form-field">
         <label for="name">Ім'я</label>
         <input type="text" name="name" id="name">
-
+        </div>
+        
+        <div class="form-field">
         <label for="tel">Телефон</label>
         <input type="tel" name="name" id="tel">
+        </div>
 
-        <label for="email"></label>
+        <div class="form-field">
+        <label for="email">Пошта</label>
         <input type="email" name="name" id="email">
+        </div>
+
+
+     
+
+        <input type="checkbox" name="" value="policy" id="contract">
+        <label for="policy">Погоджуюсь з розсилкою та приймаю <a href="">Умови договору</a></label>
+
+        <textarea name="comment" id="comment" placeholder="Коментар"></textarea>
+
+        <button type="submit">Надіслати</button>
       </form>
       </div>
     </div>
-    <script src="./js/modal.js"></script>
-    <script>
+        <script>
       (() => {
         document
         .querySelector('.callback-form')
@@ -509,8 +525,11 @@
           new FormData(e.currentTarget). forEach((value, name) =>
           console.log(' ${name}: ${value}'),
         );
+
+        e.currentTarget.reset();
         });
       })();
     </script>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
