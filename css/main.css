@@ -47,7 +47,7 @@ img {
   /* Footer colours */
   --footer-background-color: #2f303a;
   --footer-contacts: #ffffff99;
-  --footer-background-social-networks-color: rgba(255, 255, 255, 0.1);
+  /* --footer-email: rgba(255, 255, 255, 0.3); */
 }
 
 body {
@@ -226,9 +226,8 @@ header a:hover .icon {
 .hero .button-hero {
   display: inline-flex;
   align-items: center;
-
-  border-radius: 4px;
-
+  min-width: 200px;
+  min-width: 50px;
   padding-left: 32px;
   padding-right: 32px;
   padding-top: 10px;
@@ -239,8 +238,9 @@ header a:hover .icon {
   line-height: 1.87;
   letter-spacing: 0.06em;
 
-  background-color: var(--accent-color);
   color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  border-radius: 4px;
 }
 
 .hero .hero-title {
@@ -833,22 +833,45 @@ textarea {
   margin-right: 12px;
 }
 
-.subscribe {
-  margin-top: 0;
-  margin-bottom: 20px;
+footer b {
+  height: 16px;
+  left: 611px;
+  top: 2821px;
 
-  font-weight: 700;
+  font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
+
+  text-transform: uppercase;
 }
 
-.footer .email {
-  margin-top: 0;
-  margin-bottom: 0;
+footer p {
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
 
-  color: var(--footer-contacts);
+.footer p {
+  margin-bottom: 10px;
+}
+
+.email-input {
+  width: 358px;
+  height: 50px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 16px;
+  padding-right: 295px;
+
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.25;
+  align-items: center;
+
+  color: rgba(255, 255, 255, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  background-color: #2f303a;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 }
 
 .footer .button {
@@ -858,15 +881,19 @@ textarea {
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 29px;
-  width: 200px;
-  height: 50px;
+  min-width: 200px;
+  min-height: 50px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.8;
+  letter-spacing: 0.06em;
 
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   color: var(--primary-white-color);
   background-color: var(--accent-color);
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.8;
 }
 
 .footer .button::after {
@@ -874,7 +901,8 @@ textarea {
   width: 24px;
   height: 24px;
   margin-left: 10px;
-  margin-right: 28px;
   background-image: url(../studio-images/logo/icon-send.svg);
   background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
