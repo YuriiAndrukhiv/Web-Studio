@@ -305,19 +305,37 @@ header a:hover .icon {
   padding: 40px;
 }
 
-.form-field{
-display: flex;
-flex-direction: column;
+.form-field {
+  display: flex;
+  flex-direction: column;
 
   margin-bottom: 28px;
 }
 
-.form-field .input {
+.contract {
+  text-decoration: underline;
+  color: var(--accent-color);
+}
+
+.submit {
+position: absolute;
+min-width: 200px;
+min-height: 50px;
+
+color: var(--primary-white-color);
+background: var(--accent-color);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+}
+
+.form-field input {
   margin: 0;
   padding: 12px 12px;
 }
 
 textarea {
+  padding: 12px 16px;
+
   resize: none;
   width: 448px;
   height: 120px;

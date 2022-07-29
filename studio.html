@@ -495,23 +495,23 @@
         
         <div class="form-field">
         <label for="tel">Телефон</label>
-        <input type="tel" name="name" id="tel">
+        <input type="tel" name="tel" id="tel">
         </div>
 
         <div class="form-field">
         <label for="email">Пошта</label>
-        <input type="email" name="name" id="email">
+        <input type="email" name="email" id="email">
         </div>
-
-
-     
-
-        <input type="checkbox" name="" value="policy" id="contract">
-        <label for="policy">Погоджуюсь з розсилкою та приймаю <a href="">Умови договору</a></label>
 
         <textarea name="comment" id="comment" placeholder="Коментар"></textarea>
 
-        <button type="submit">Надіслати</button>
+        <input class="check" type="checkbox" name="" value="policy" id="policy">
+        <div class="form-field">
+        
+        <label for="policy">Погоджуюсь з розсилкою та приймаю <a class="contract" href="">Умови договору</a></label>
+        </div>
+        
+        <button class="submit" type="submit">Надіслати</button>
       </form>
       </div>
     </div>
@@ -523,7 +523,7 @@
           e.preventDefault();
 
           new FormData(e.currentTarget). forEach((value, name) =>
-          console.log(' ${name}: ${value}'),
+          console.log(name + ":" + value),
         );
 
         e.currentTarget.reset();
