@@ -309,7 +309,7 @@ header a:hover .icon {
 }
 
 .form {
-  padding: 40px;
+  margin: 40px;
 }
 
 .form-title {
@@ -356,11 +356,34 @@ header a:hover .icon {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
 }
+.form-field {
+  position: relative;
+}
 
-.form-field input {
+.form-label {
+  position: absolute;
+  top: 50%;
+  left: 81px;
+  transform: translateY(-50%);
+
+  /* font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.01em; */
+}
+
+.form-input {
   margin: 0;
   padding: 12px 12px;
   width: 448px;
+}
+
+.form-input:focus + .form-label {
+  transform: translateY(-36px);
+  color: var(--accent-color);
+  border-color: var(--accent-color);
 }
 
 textarea {
