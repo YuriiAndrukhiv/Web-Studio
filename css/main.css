@@ -366,12 +366,12 @@ header a:hover .icon {
   left: 81px;
   transform: translateY(-50%);
 
-  /* font-family: 'Roboto';
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
-  line-height: 14px;
-  letter-spacing: 0.01em; */
+  font-size: 14px;
+  line-height: 1.14px;
+  letter-spacing: 0.01em;
 }
 
 .form-input {
@@ -381,7 +381,15 @@ header a:hover .icon {
 }
 
 .form-input:focus + .form-label {
-  transform: translateY(-36px);
+  transform: translateY(-35px);
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16px;
+  letter-spacing: 0.01em;
+
   color: var(--accent-color);
   border-color: var(--accent-color);
 }
@@ -389,14 +397,29 @@ header a:hover .icon {
 textarea {
   padding: 12px 16px;
   margin-bottom: 20px;
-
   resize: none;
   width: 448px;
   height: 120px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.14px;
+  letter-spacing: 0.01em;
 }
 
 .group {
   margin-bottom: 30px;
+}
+
+.form-checkbox {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7px;
+  letter-spacing: 0.03em;
 }
 
 .features .img-block {
