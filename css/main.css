@@ -430,17 +430,40 @@ textarea {
   letter-spacing: 0.01em;
 }
 
-.group {
+.form-group {
   margin-bottom: 30px;
 }
 
-.form-checkbox {
+.label-checkbox {
+  /* display: inline-block; */
+  outline: 1px solid black;
+}
+
+/* .form-checkbox {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  position: absolute;
+
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7px;
   letter-spacing: 0.03em;
+} */
+
+.label-checkbox .icon {
+  display: inline-block;
+  width: 16px;
+  height: 15px;
+
+  border: 2px solid #2a2a2a;
+}
+
+.form-checkbox:checked + .icon {
+  
 }
 
 .features .img-block {
