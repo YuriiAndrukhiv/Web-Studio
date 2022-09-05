@@ -316,6 +316,12 @@ header a:hover .icon {
   padding: 40px;
 }
 
+.field-list {
+  list-style: none;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
 .form-title {
   margin-top: 0;
   margin-bottom: 30px;
