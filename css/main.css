@@ -430,16 +430,11 @@ textarea {
   letter-spacing: 0.01em;
 }
 
-.form-group {
+.label-checkbox {
   margin-bottom: 30px;
 }
 
-.label-checkbox {
-  /* display: inline-block; */
-  outline: 1px solid black;
-}
-
-/* .form-checkbox {
+.form-checkbox {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -452,7 +447,7 @@ textarea {
   font-size: 14px;
   line-height: 1.7px;
   letter-spacing: 0.03em;
-} */
+}
 
 .label-checkbox .icon {
   display: inline-block;
@@ -463,6 +458,8 @@ textarea {
 }
 
 .form-checkbox:checked + .icon {
+  border: 2px solid var(--accent-color);
+  background-color: var(--accent-color);
 }
 
 .features .img-block {
