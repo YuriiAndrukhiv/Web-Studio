@@ -431,7 +431,8 @@ textarea {
 }
 
 .label-checkbox {
-  margin-bottom: 30px;
+  display: block;
+  margin-bottom: 30px
 }
 
 .form-checkbox {
