@@ -430,17 +430,14 @@ textarea {
   letter-spacing: 0.01em;
 }
 
-.label-checkbox {
-  display: block;
+.form-contracts {
+  position: relative;
   margin-bottom: 30px;
 }
 
-.form-checkbox {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-
-  position: absolute;
+.label-checkbox {
+  display: flex;
+  align-items: center;
 
   font-family: 'Roboto';
   font-style: normal;
@@ -448,19 +445,32 @@ textarea {
   font-size: 14px;
   line-height: 1.7px;
   letter-spacing: 0.03em;
+
+  color: var(--secondary-text-color);
+}
+
+.form-checkbox {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .label-checkbox .icon {
   display: inline-block;
   width: 16px;
   height: 15px;
+  margin-right: 7px;
 
   border: 2px solid #2a2a2a;
   border-radius: 2px;
 }
 
 .form-checkbox:checked + .icon {
-  /* border-color: var(--accent-color); */
   border-color: transparent;
   background-color: var(--accent-color);
   background-image: url('../studio-images/logo/icon-check.svg');
