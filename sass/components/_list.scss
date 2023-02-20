@@ -1,0 +1,39 @@
+.list {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+.features {
+    &.img-block {
+            background-color: #f5f4fa;
+            width: 270px;
+            height: 120px;
+            padding: 25px 100px;
+            margin-bottom: 30px;
+        }
+    
+        &.content>li {
+            margin-right: 30px;
+
+            &:last-child {
+                    margin-right: 0;
+                }
+        }
+}
+
+.our-work .content>.about-item {
+    margin-right: 30px;
+}
+
+.team {
+&.content>li {
+        margin-right: 30px;
+        padding-bottom: 24px;
+    
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+} 
+
