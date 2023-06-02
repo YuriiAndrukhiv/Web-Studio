@@ -1,0 +1,30 @@
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    display: block;
+}
+
+.content {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+}
+
+.social-networks {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    list-style: none;
+
+    & li {
+        margin-right: 10px;
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}
