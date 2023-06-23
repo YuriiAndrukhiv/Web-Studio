@@ -733,7 +733,7 @@ textarea {
   margin-right: 69px;
 }
 
-.footer-contacts > .footer-logo {
+.footer-logo {
   margin-bottom: 20px;
 }
 
@@ -751,15 +751,9 @@ textarea {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.first-word-logo:hover,
-.first-word-logo:focus {
-  color: var(--accent-color);
-}
-
-.two-word-logo:hover,
-.two-word-logo:focus {
+.footer .two-word-logo:hover, .footer .two-word-logo:focus {
   color: var(--accent-color);
 }
 
@@ -770,15 +764,14 @@ textarea {
   line-height: 1.7;
 }
 
-.footer .contacts {
+.contacts {
   margin-top: 0;
   margin-bottom: 9px;
   color: var(--footer-contacts);
   font-size: 14px;
   line-height: 1.7;
 }
-
-.footer .contacts:last-child {
+.contacts:last-child {
   margin-bottom: 0px;
 }
 
@@ -803,9 +796,7 @@ textarea {
   height: 44px;
   border-radius: 50%;
 }
-
-.footer .img-block:hover,
-.footer .img-block:focus {
+.footer .img-block:hover, .footer .img-block:focus {
   background-color: var(--accent-color);
 }
 
@@ -813,7 +804,7 @@ textarea {
   margin-right: 12px;
 }
 
-footer b {
+.footer b {
   height: 16px;
   left: 611px;
   top: 2821px;
@@ -823,13 +814,9 @@ footer b {
   text-transform: uppercase;
 }
 
-footer p {
+.footer p {
   margin-top: 0px;
   margin-bottom: 20px;
-}
-
-.footer p {
-  margin-bottom: 10px;
 }
 
 .email-input {
@@ -875,7 +862,7 @@ footer p {
   width: 24px;
   height: 24px;
   margin-left: 10px;
-  background-image: url(../studio-images/logo/icon-send.svg);
+  background-image: url("../studio-images/logo/icon-send.svg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
